@@ -1,0 +1,1153 @@
+"","Carrier Name","Month","Status","Flights","Ratio"
+"1","Alaska Airlines Inc.",1,"On Time",12361,0.870186554030271
+"2","Alaska Airlines Inc.",2,"On Time",11963,0.892827822971864
+"3","Alaska Airlines Inc.",3,"On Time",12770,0.863946958933766
+"4","Alaska Airlines Inc.",4,"On Time",13108,0.89401173100532
+"5","Alaska Airlines Inc.",5,"On Time",13888,0.902697432564186
+"6","Alaska Airlines Inc.",6,"On Time",13593,0.864144945963128
+"7","Alaska Airlines Inc.",7,"On Time",14538,0.89431594488189
+"8","Alaska Airlines Inc.",8,"On Time",14444,0.877787906411425
+"9","Alaska Airlines Inc.",9,"On Time",12507,0.902511184875162
+"10","Alaska Airlines Inc.",10,"On Time",12332,0.875354911981828
+"11","Alaska Airlines Inc.",11,"On Time",12265,0.879463645489746
+"12","Alaska Airlines Inc.",12,"On Time",11048,0.761143644505684
+"13","American Airlines Inc.",1,"On Time",60292,0.797724265678751
+"14","American Airlines Inc.",2,"On Time",59301,0.830081187010078
+"15","American Airlines Inc.",3,"On Time",63812,0.806531932911184
+"16","American Airlines Inc.",4,"On Time",62516,0.835116686036415
+"17","American Airlines Inc.",5,"On Time",63482,0.806858333968835
+"18","American Airlines Inc.",6,"On Time",57675,0.724123644033749
+"19","American Airlines Inc.",7,"On Time",57721,0.706689683880604
+"20","American Airlines Inc.",8,"On Time",57670,0.718709886467018
+"21","American Airlines Inc.",9,"On Time",60121,0.829712945073144
+"22","American Airlines Inc.",10,"On Time",63657,0.846829229357066
+"23","American Airlines Inc.",11,"On Time",61344,0.854147231234075
+"24","American Airlines Inc.",12,"On Time",58368,0.790872876073819
+"25","Delta Air Lines Inc.",1,"On Time",59415,0.852304514352111
+"26","Delta Air Lines Inc.",2,"On Time",58569,0.864219208806126
+"27","Delta Air Lines Inc.",3,"On Time",68710,0.87853215701317
+"28","Delta Air Lines Inc.",4,"On Time",69166,0.902867884135914
+"29","Delta Air Lines Inc.",5,"On Time",71394,0.886265455087144
+"30","Delta Air Lines Inc.",6,"On Time",68006,0.834255431382411
+"31","Delta Air Lines Inc.",7,"On Time",68298,0.816209950165517
+"32","Delta Air Lines Inc.",8,"On Time",67560,0.799148332150461
+"33","Delta Air Lines Inc.",9,"On Time",68063,0.90179529645578
+"34","Delta Air Lines Inc.",10,"On Time",72786,0.921726797269746
+"35","Delta Air Lines Inc.",11,"On Time",67707,0.913687704951217
+"36","Delta Air Lines Inc.",12,"On Time",58284,0.813885940903759
+"37","ExpressJet Airlines Inc.",1,"On Time",34073,0.811841791756016
+"38","ExpressJet Airlines Inc.",2,"On Time",31328,0.78465160547012
+"39","ExpressJet Airlines Inc.",3,"On Time",36992,0.829714695855015
+"40","ExpressJet Airlines Inc.",4,"On Time",34942,0.856988693498148
+"41","ExpressJet Airlines Inc.",5,"On Time",34460,0.834503802005134
+"42","ExpressJet Airlines Inc.",6,"On Time",33550,0.780686445607912
+"43","ExpressJet Airlines Inc.",7,"On Time",30903,0.709402690418254
+"44","ExpressJet Airlines Inc.",8,"On Time",31856,0.736469772280661
+"45","ExpressJet Airlines Inc.",9,"On Time",32404,0.830999640970406
+"46","ExpressJet Airlines Inc.",10,"On Time",33562,0.846563248833396
+"47","ExpressJet Airlines Inc.",11,"On Time",30202,0.827474725334941
+"48","ExpressJet Airlines Inc.",12,"On Time",27585,0.735345080372138
+"49","Frontier Airlines Inc.",1,"On Time",6040,0.850824059726722
+"50","Frontier Airlines Inc.",2,"On Time",5801,0.872855853144749
+"51","Frontier Airlines Inc.",3,"On Time",5473,0.775542015020547
+"52","Frontier Airlines Inc.",4,"On Time",6112,0.857824561403509
+"53","Frontier Airlines Inc.",5,"On Time",6349,0.801641414141414
+"54","Frontier Airlines Inc.",6,"On Time",6128,0.755889971629456
+"55","Frontier Airlines Inc.",7,"On Time",5709,0.632997006319991
+"56","Frontier Airlines Inc.",8,"On Time",5883,0.658716829022506
+"57","Frontier Airlines Inc.",9,"On Time",6202,0.717325931066389
+"58","Frontier Airlines Inc.",10,"On Time",6765,0.778212354768204
+"59","Frontier Airlines Inc.",11,"On Time",6744,0.875048657065006
+"60","Frontier Airlines Inc.",12,"On Time",5102,0.624403377799535
+"61","Hawaiian Airlines Inc.",1,"On Time",5760,0.917343526039178
+"62","Hawaiian Airlines Inc.",2,"On Time",5375,0.918646385233293
+"63","Hawaiian Airlines Inc.",3,"On Time",5707,0.898033044846578
+"64","Hawaiian Airlines Inc.",4,"On Time",5869,0.940695624298766
+"65","Hawaiian Airlines Inc.",5,"On Time",5926,0.921330845771144
+"66","Hawaiian Airlines Inc.",6,"On Time",6133,0.911157331748626
+"67","Hawaiian Airlines Inc.",7,"On Time",6232,0.887496439760752
+"68","Hawaiian Airlines Inc.",8,"On Time",6528,0.926088806922968
+"69","Hawaiian Airlines Inc.",9,"On Time",5639,0.912754936872774
+"70","Hawaiian Airlines Inc.",10,"On Time",5809,0.932124518613607
+"71","Hawaiian Airlines Inc.",11,"On Time",5559,0.915212380638788
+"72","Hawaiian Airlines Inc.",12,"On Time",5402,0.851110760989444
+"73","JetBlue Airways",1,"On Time",15971,0.693848292640542
+"74","JetBlue Airways",2,"On Time",15014,0.689474650991918
+"75","JetBlue Airways",3,"On Time",18114,0.760293809024134
+"76","JetBlue Airways",4,"On Time",18303,0.789364730236771
+"77","JetBlue Airways",5,"On Time",19565,0.80713696369637
+"78","JetBlue Airways",6,"On Time",17731,0.743594044873139
+"79","JetBlue Airways",7,"On Time",16887,0.677458177879408
+"80","JetBlue Airways",8,"On Time",18045,0.729739566483339
+"81","JetBlue Airways",9,"On Time",17635,0.787417395963565
+"82","JetBlue Airways",10,"On Time",17888,0.770071892892505
+"83","JetBlue Airways",11,"On Time",19376,0.84338817794028
+"84","JetBlue Airways",12,"On Time",17345,0.712964485366656
+"85","SkyWest Airlines Inc.",1,"On Time",36942,0.775782775782776
+"86","SkyWest Airlines Inc.",2,"On Time",37368,0.819186250438443
+"87","SkyWest Airlines Inc.",3,"On Time",40971,0.787041127994314
+"88","SkyWest Airlines Inc.",4,"On Time",42959,0.857174212343117
+"89","SkyWest Airlines Inc.",5,"On Time",43601,0.850701422355765
+"90","SkyWest Airlines Inc.",6,"On Time",44727,0.846300851466414
+"91","SkyWest Airlines Inc.",7,"On Time",45574,0.829160905319846
+"92","SkyWest Airlines Inc.",8,"On Time",44444,0.814708901598475
+"93","SkyWest Airlines Inc.",9,"On Time",43385,0.885842045083306
+"94","SkyWest Airlines Inc.",10,"On Time",43637,0.855375869842203
+"95","SkyWest Airlines Inc.",11,"On Time",40292,0.852091528147866
+"96","SkyWest Airlines Inc.",12,"On Time",34650,0.698194567582816
+"97","Southwest Airlines Co.",1,"On Time",87232,0.837529043531693
+"98","Southwest Airlines Co.",2,"On Time",85398,0.878354332733351
+"99","Southwest Airlines Co.",3,"On Time",90859,0.811219342339044
+"100","Southwest Airlines Co.",4,"On Time",87648,0.812646608873024
+"101","Southwest Airlines Co.",5,"On Time",89245,0.812448223438055
+"102","Southwest Airlines Co.",6,"On Time",83475,0.743414138895321
+"103","Southwest Airlines Co.",7,"On Time",81619,0.708449066037081
+"104","Southwest Airlines Co.",8,"On Time",88453,0.79849243962988
+"105","Southwest Airlines Co.",9,"On Time",89099,0.856037969697261
+"106","Southwest Airlines Co.",10,"On Time",91865,0.848417961174015
+"107","Southwest Airlines Co.",11,"On Time",92026,0.860667389921814
+"108","Southwest Airlines Co.",12,"On Time",82984,0.748912513762793
+"109","Spirit Air Lines",1,"On Time",7519,0.680637277088802
+"110","Spirit Air Lines",2,"On Time",6540,0.631639945914622
+"111","Spirit Air Lines",3,"On Time",7262,0.64574070780722
+"112","Spirit Air Lines",4,"On Time",8326,0.738055136955944
+"113","Spirit Air Lines",5,"On Time",9164,0.764176117411608
+"114","Spirit Air Lines",6,"On Time",8470,0.729857819905213
+"115","Spirit Air Lines",7,"On Time",8729,0.727719883284702
+"116","Spirit Air Lines",8,"On Time",8604,0.717478318879253
+"117","Spirit Air Lines",9,"On Time",9492,0.851224105461394
+"118","Spirit Air Lines",10,"On Time",9612,0.8356081022342
+"119","Spirit Air Lines",11,"On Time",10033,0.864392177134488
+"120","Spirit Air Lines",12,"On Time",8961,0.721149203283438
+"121","United Air Lines Inc.",1,"On Time",32798,0.824878649933352
+"122","United Air Lines Inc.",2,"On Time",33580,0.862263763352506
+"123","United Air Lines Inc.",3,"On Time",35891,0.81109604519774
+"124","United Air Lines Inc.",4,"On Time",36832,0.850996973267716
+"125","United Air Lines Inc.",5,"On Time",38443,0.837282746003398
+"126","United Air Lines Inc.",6,"On Time",36772,0.792090298121661
+"127","United Air Lines Inc.",7,"On Time",36785,0.765572644591979
+"128","United Air Lines Inc.",8,"On Time",38571,0.77517183166526
+"129","United Air Lines Inc.",9,"On Time",39614,0.844018323212954
+"130","United Air Lines Inc.",10,"On Time",41638,0.83357690536726
+"131","United Air Lines Inc.",11,"On Time",39673,0.860921834989801
+"132","United Air Lines Inc.",12,"On Time",34752,0.7601382387681
+"133","Virgin America",1,"On Time",4013,0.74535661218425
+"134","Virgin America",2,"On Time",4180,0.845982594616474
+"135","Virgin America",3,"On Time",4156,0.737533274179237
+"136","Virgin America",4,"On Time",4314,0.764351523742027
+"137","Virgin America",5,"On Time",4484,0.766889002907474
+"138","Virgin America",6,"On Time",4295,0.725629329278594
+"139","Virgin America",7,"On Time",4602,0.754426229508197
+"140","Virgin America",8,"On Time",4486,0.738922747488058
+"141","Virgin America",9,"On Time",4711,0.822738386308069
+"142","Virgin America",10,"On Time",4465,0.762726340963444
+"143","Virgin America",11,"On Time",4819,0.814432989690722
+"144","Virgin America",12,"On Time",4155,0.683051126089101
+"145","Alaska Airlines Inc.",1,"Cancelled",139,0.00978528687082013
+"146","Alaska Airlines Inc.",2,"Cancelled",79,0.00589596238525263
+"147","Alaska Airlines Inc.",3,"Cancelled",108,0.00730667749137406
+"148","Alaska Airlines Inc.",4,"Cancelled",16,0.00109125630882554
+"149","Alaska Airlines Inc.",5,"Cancelled",33,0.00214494637634059
+"150","Alaska Airlines Inc.",6,"Cancelled",35,0.00222504767959313
+"151","Alaska Airlines Inc.",7,"Cancelled",20,0.00123031496062992
+"152","Alaska Airlines Inc.",8,"Cancelled",25,0.00151929504709815
+"153","Alaska Airlines Inc.",9,"Cancelled",34,0.00245345648722759
+"154","Alaska Airlines Inc.",10,"Cancelled",84,0.00596252129471891
+"155","Alaska Airlines Inc.",11,"Cancelled",10,0.000717051484296573
+"156","Alaska Airlines Inc.",12,"Cancelled",232,0.0159834653806407
+"157","American Airlines Inc.",1,"Cancelled",2720,0.0359883567081238
+"158","American Airlines Inc.",2,"Cancelled",1003,0.0140397536394177
+"159","American Airlines Inc.",3,"Cancelled",431,0.00544749048901022
+"160","American Airlines Inc.",4,"Cancelled",660,0.00881657516130325
+"161","American Airlines Inc.",5,"Cancelled",493,0.00626604641704161
+"162","American Airlines Inc.",6,"Cancelled",831,0.0104334069907593
+"163","American Airlines Inc.",7,"Cancelled",1432,0.0175322608291094
+"164","American Airlines Inc.",8,"Cancelled",1498,0.0186687603594173
+"165","American Airlines Inc.",9,"Cancelled",243,0.00335357438586807
+"166","American Airlines Inc.",10,"Cancelled",825,0.0109749770523207
+"167","American Airlines Inc.",11,"Cancelled",181,0.00252022445313914
+"168","American Airlines Inc.",12,"Cancelled",550,0.00745237256442915
+"169","Delta Air Lines Inc.",1,"Cancelled",974,0.0139719699903889
+"170","Delta Air Lines Inc.",2,"Cancelled",313,0.00461849463634888
+"171","Delta Air Lines Inc.",3,"Cancelled",58,0.000741593146656438
+"172","Delta Air Lines Inc.",4,"Cancelled",53,0.000691842781991202
+"173","Delta Air Lines Inc.",5,"Cancelled",39,0.000484135259943393
+"174","Delta Air Lines Inc.",6,"Cancelled",13,0.000159475937534502
+"175","Delta Air Lines Inc.",7,"Cancelled",241,0.00288012237532416
+"176","Delta Air Lines Inc.",8,"Cancelled",1807,0.0213744972793944
+"177","Delta Air Lines Inc.",9,"Cancelled",10,0.000132494203378602
+"178","Delta Air Lines Inc.",10,"Cancelled",473,0.0059898438588271
+"179","Delta Air Lines Inc.",11,"Cancelled",0,0
+"180","Delta Air Lines Inc.",12,"Cancelled",135,0.0018851589119142
+"181","ExpressJet Airlines Inc.",1,"Cancelled",1427,0.0340004765308554
+"182","ExpressJet Airlines Inc.",2,"Cancelled",1465,0.0366928818313881
+"183","ExpressJet Airlines Inc.",3,"Cancelled",611,0.0137044679705724
+"184","ExpressJet Airlines Inc.",4,"Cancelled",623,0.0152797194221666
+"185","ExpressJet Airlines Inc.",5,"Cancelled",452,0.0109459001307696
+"186","ExpressJet Airlines Inc.",6,"Cancelled",1254,0.0291797556719023
+"187","ExpressJet Airlines Inc.",7,"Cancelled",2319,0.0532344704099904
+"188","ExpressJet Airlines Inc.",8,"Cancelled",1609,0.0371980117905444
+"189","ExpressJet Airlines Inc.",9,"Cancelled",324,0.00830897061086321
+"190","ExpressJet Airlines Inc.",10,"Cancelled",318,0.00802118804388952
+"191","ExpressJet Airlines Inc.",11,"Cancelled",345,0.00945231376202088
+"192","ExpressJet Airlines Inc.",12,"Cancelled",1142,0.0304427798363234
+"193","Frontier Airlines Inc.",1,"Cancelled",77,0.0108465981124102
+"194","Frontier Airlines Inc.",2,"Cancelled",104,0.0156485103821848
+"195","Frontier Airlines Inc.",3,"Cancelled",181,0.0256482924755562
+"196","Frontier Airlines Inc.",4,"Cancelled",28,0.00392982456140351
+"197","Frontier Airlines Inc.",5,"Cancelled",21,0.00265151515151515
+"198","Frontier Airlines Inc.",6,"Cancelled",7,0.000863451338349574
+"199","Frontier Airlines Inc.",7,"Cancelled",31,0.00343718815833241
+"200","Frontier Airlines Inc.",8,"Cancelled",36,0.00403090359422237
+"201","Frontier Airlines Inc.",9,"Cancelled",43,0.0049733981031691
+"202","Frontier Airlines Inc.",10,"Cancelled",122,0.0140342804555389
+"203","Frontier Airlines Inc.",11,"Cancelled",6,0.000778513040093422
+"204","Frontier Airlines Inc.",12,"Cancelled",523,0.0640068535063028
+"205","Hawaiian Airlines Inc.",1,"Cancelled",4,0.000637044115304985
+"206","Hawaiian Airlines Inc.",2,"Cancelled",3,0.000512732866176722
+"207","Hawaiian Airlines Inc.",3,"Cancelled",9,0.0014162077104642
+"208","Hawaiian Airlines Inc.",4,"Cancelled",6,0.000961692578938932
+"209","Hawaiian Airlines Inc.",5,"Cancelled",17,0.00264303482587065
+"210","Hawaiian Airlines Inc.",6,"Cancelled",11,0.00163422968355371
+"211","Hawaiian Airlines Inc.",7,"Cancelled",16,0.00227855311876958
+"212","Hawaiian Airlines Inc.",8,"Cancelled",17,0.0024116896013619
+"213","Hawaiian Airlines Inc.",9,"Cancelled",9,0.0014567821301392
+"214","Hawaiian Airlines Inc.",10,"Cancelled",6,0.000962772785622593
+"215","Hawaiian Airlines Inc.",11,"Cancelled",11,0.00181099769509384
+"216","Hawaiian Airlines Inc.",12,"Cancelled",9,0.00141799275248149
+"217","JetBlue Airways",1,"Cancelled",897,0.0389695021287688
+"218","JetBlue Airways",2,"Cancelled",559,0.0256704628949302
+"219","JetBlue Airways",3,"Cancelled",118,0.00495278069254984
+"220","JetBlue Airways",4,"Cancelled",173,0.007461077327813
+"221","JetBlue Airways",5,"Cancelled",88,0.00363036303630363
+"222","JetBlue Airways",6,"Cancelled",201,0.00842944013420004
+"223","JetBlue Airways",7,"Cancelled",510,0.020459742447948
+"224","JetBlue Airways",8,"Cancelled",315,0.0127385959236493
+"225","JetBlue Airways",9,"Cancelled",110,0.00491159135559921
+"226","JetBlue Airways",10,"Cancelled",536,0.0230746050195876
+"227","JetBlue Airways",11,"Cancelled",42,0.00182815356489945
+"228","JetBlue Airways",12,"Cancelled",248,0.0101940151266031
+"229","SkyWest Airlines Inc.",1,"Cancelled",984,0.0206640206640207
+"230","SkyWest Airlines Inc.",2,"Cancelled",1092,0.0239389687828832
+"231","SkyWest Airlines Inc.",3,"Cancelled",1214,0.0233205908907544
+"232","SkyWest Airlines Inc.",4,"Cancelled",694,0.0138475966239001
+"233","SkyWest Airlines Inc.",5,"Cancelled",305,0.00595087116851697
+"234","SkyWest Airlines Inc.",6,"Cancelled",422,0.0079848628192999
+"235","SkyWest Airlines Inc.",7,"Cancelled",501,0.00911505712830216
+"236","SkyWest Airlines Inc.",8,"Cancelled",356,0.00652588356063939
+"237","SkyWest Airlines Inc.",9,"Cancelled",187,0.00381819666775564
+"238","SkyWest Airlines Inc.",10,"Cancelled",533,0.0104479074781927
+"239","SkyWest Airlines Inc.",11,"Cancelled",328,0.0069365139787675
+"240","SkyWest Airlines Inc.",12,"Cancelled",1830,0.0368743451277505
+"241","Southwest Airlines Co.",1,"Cancelled",2640,0.0253470822051962
+"242","Southwest Airlines Co.",2,"Cancelled",1415,0.0145538698894317
+"243","Southwest Airlines Co.",3,"Cancelled",1278,0.0114104086497683
+"244","Southwest Airlines Co.",4,"Cancelled",968,0.00897501274859765
+"245","Southwest Airlines Co.",5,"Cancelled",610,0.00555317851193023
+"246","Southwest Airlines Co.",6,"Cancelled",1510,0.0134478029317992
+"247","Southwest Airlines Co.",7,"Cancelled",3395,0.0294684396916881
+"248","Southwest Airlines Co.",8,"Cancelled",703,0.00634619724667118
+"249","Southwest Airlines Co.",9,"Cancelled",315,0.00302643082924205
+"250","Southwest Airlines Co.",10,"Cancelled",936,0.00864441530135392
+"251","Southwest Airlines Co.",11,"Cancelled",220,0.00205753619393214
+"252","Southwest Airlines Co.",12,"Cancelled",1876,0.0169304911286392
+"253","Spirit Air Lines",1,"Cancelled",308,0.0278808726351046
+"254","Spirit Air Lines",2,"Cancelled",404,0.0390187367201082
+"255","Spirit Air Lines",3,"Cancelled",174,0.0154721678819136
+"256","Spirit Air Lines",4,"Cancelled",193,0.0171084123747895
+"257","Spirit Air Lines",5,"Cancelled",164,0.0136757838559039
+"258","Spirit Air Lines",6,"Cancelled",270,0.023265833692374
+"259","Spirit Air Lines",7,"Cancelled",251,0.0209253855773239
+"260","Spirit Air Lines",8,"Cancelled",197,0.0164276184122749
+"261","Spirit Air Lines",9,"Cancelled",49,0.00439422473320778
+"262","Spirit Air Lines",10,"Cancelled",295,0.0256454837868382
+"263","Spirit Air Lines",11,"Cancelled",38,0.0032738864478332
+"264","Spirit Air Lines",12,"Cancelled",286,0.0230162562369226
+"265","United Air Lines Inc.",1,"Cancelled",1336,0.0336007645682956
+"266","United Air Lines Inc.",2,"Cancelled",348,0.00893590797041906
+"267","United Air Lines Inc.",3,"Cancelled",483,0.0109152542372881
+"268","United Air Lines Inc.",4,"Cancelled",650,0.0150181372888796
+"269","United Air Lines Inc.",5,"Cancelled",247,0.00537962277301041
+"270","United Air Lines Inc.",6,"Cancelled",357,0.00768998793727382
+"271","United Air Lines Inc.",7,"Cancelled",561,0.0116755811775479
+"272","United Air Lines Inc.",8,"Cancelled",313,0.00629044575746614
+"273","United Air Lines Inc.",9,"Cancelled",175,0.00372856077554064
+"274","United Air Lines Inc.",10,"Cancelled",349,0.00698684711016797
+"275","United Air Lines Inc.",11,"Cancelled",116,0.00251725185538822
+"276","United Air Lines Inc.",12,"Cancelled",535,0.0117021741983464
+"277","Virgin America",1,"Cancelled",159,0.0295319465081724
+"278","Virgin America",2,"Cancelled",38,0.00769075086014977
+"279","Virgin America",3,"Cancelled",68,0.0120674356699201
+"280","Virgin America",4,"Cancelled",45,0.00797306874557052
+"281","Virgin America",5,"Cancelled",40,0.00684111510176159
+"282","Virgin America",6,"Cancelled",71,0.0119952694711945
+"283","Virgin America",7,"Cancelled",32,0.00524590163934426
+"284","Virgin America",8,"Cancelled",17,0.00280019766101137
+"285","Virgin America",9,"Cancelled",18,0.00314355571079287
+"286","Virgin America",10,"Cancelled",70,0.0119576358045781
+"287","Virgin America",11,"Cancelled",13,0.00219705932060166
+"288","Virgin America",12,"Cancelled",98,0.0161104718066743
+"289","Alaska Airlines Inc.",1,"Diverted",50,0.00351988736360436
+"290","Alaska Airlines Inc.",2,"Diverted",64,0.00477647585640719
+"291","Alaska Airlines Inc.",3,"Diverted",49,0.0033150666396049
+"292","Alaska Airlines Inc.",4,"Diverted",18,0.00122766334742873
+"293","Alaska Airlines Inc.",5,"Diverted",31,0.00201494962625934
+"294","Alaska Airlines Inc.",6,"Diverted",44,0.0027972027972028
+"295","Alaska Airlines Inc.",7,"Diverted",23,0.00141486220472441
+"296","Alaska Airlines Inc.",8,"Diverted",32,0.00194469766028563
+"297","Alaska Airlines Inc.",9,"Diverted",22,0.00158753066820609
+"298","Alaska Airlines Inc.",10,"Diverted",29,0.00205848949460534
+"299","Alaska Airlines Inc.",11,"Diverted",19,0.00136239782016349
+"300","Alaska Airlines Inc.",12,"Diverted",71,0.0048914915604547
+"301","American Airlines Inc.",1,"Diverted",124,0.00164064567345859
+"302","American Airlines Inc.",2,"Diverted",137,0.00191769316909295
+"303","American Airlines Inc.",3,"Diverted",174,0.0021992188981155
+"304","American Airlines Inc.",4,"Diverted",170,0.00227093602639629
+"305","American Airlines Inc.",5,"Diverted",263,0.00334273875797555
+"306","American Airlines Inc.",6,"Diverted",278,0.00349035757332262
+"307","American Airlines Inc.",7,"Diverted",334,0.00408922843360513
+"308","American Airlines Inc.",8,"Diverted",317,0.00395059882105158
+"309","American Airlines Inc.",9,"Diverted",114,0.00157328181065415
+"310","American Airlines Inc.",10,"Diverted",86,0.00114405821393889
+"311","American Airlines Inc.",11,"Diverted",87,0.00121137860454754
+"312","American Airlines Inc.",12,"Diverted",132,0.001788569415463
+"313","Delta Air Lines Inc.",1,"Diverted",88,0.00126235457818709
+"314","Delta Air Lines Inc.",2,"Diverted",169,0.00249369199215003
+"315","Delta Air Lines Inc.",3,"Diverted",142,0.00181562460043473
+"316","Delta Air Lines Inc.",4,"Diverted",94,0.00122704191522968
+"317","Delta Air Lines Inc.",5,"Diverted",118,0.00146481950444411
+"318","Delta Air Lines Inc.",6,"Diverted",239,0.00293190377467277
+"319","Delta Air Lines Inc.",7,"Diverted",310,0.0037047217275954
+"320","Delta Air Lines Inc.",8,"Diverted",173,0.00204636858291933
+"321","Delta Air Lines Inc.",9,"Diverted",134,0.00177542232527327
+"322","Delta Air Lines Inc.",10,"Diverted",72,0.000911773272379602
+"323","Delta Air Lines Inc.",11,"Diverted",79,0.00106608369431737
+"324","Delta Air Lines Inc.",12,"Diverted",116,0.00161984025023739
+"325","ExpressJet Airlines Inc.",1,"Diverted",95,0.00226352156302121
+"326","ExpressJet Airlines Inc.",2,"Diverted",120,0.00300556028653008
+"327","ExpressJet Airlines Inc.",3,"Diverted",143,0.00320742867396375
+"328","ExpressJet Airlines Inc.",4,"Diverted",90,0.00220734309469502
+"329","ExpressJet Airlines Inc.",5,"Diverted",133,0.00322080689688575
+"330","ExpressJet Airlines Inc.",6,"Diverted",190,0.00442117510180337
+"331","ExpressJet Airlines Inc.",7,"Diverted",221,0.00507322896102107
+"332","ExpressJet Airlines Inc.",8,"Diverted",174,0.00402265634030748
+"333","ExpressJet Airlines Inc.",9,"Diverted",119,0.00305175155152075
+"334","ExpressJet Airlines Inc.",10,"Diverted",71,0.00179089418589986
+"335","ExpressJet Airlines Inc.",11,"Diverted",105,0.00287679114496288
+"336","ExpressJet Airlines Inc.",12,"Diverted",116,0.00309226134939888
+"337","Frontier Airlines Inc.",1,"Diverted",4,0.000563459642203127
+"338","Frontier Airlines Inc.",2,"Diverted",16,0.00240746313572073
+"339","Frontier Airlines Inc.",3,"Diverted",18,0.00255065892022106
+"340","Frontier Airlines Inc.",4,"Diverted",12,0.00168421052631579
+"341","Frontier Airlines Inc.",5,"Diverted",22,0.00277777777777778
+"342","Frontier Airlines Inc.",6,"Diverted",20,0.00246700382385593
+"343","Frontier Airlines Inc.",7,"Diverted",19,0.00210666370994567
+"344","Frontier Airlines Inc.",8,"Diverted",8,0.000895756354271638
+"345","Frontier Airlines Inc.",9,"Diverted",10,0.00115660421003932
+"346","Frontier Airlines Inc.",10,"Diverted",3,0.000345105257103417
+"347","Frontier Airlines Inc.",11,"Diverted",8,0.00103801738679123
+"348","Frontier Airlines Inc.",12,"Diverted",10,0.00122384041121038
+"349","Hawaiian Airlines Inc.",1,"Diverted",5,0.000796305144131231
+"350","Hawaiian Airlines Inc.",2,"Diverted",9,0.00153819859853017
+"351","Hawaiian Airlines Inc.",3,"Diverted",5,0.000786782061369001
+"352","Hawaiian Airlines Inc.",4,"Diverted",5,0.00080141048244911
+"353","Hawaiian Airlines Inc.",5,"Diverted",7,0.00108830845771144
+"354","Hawaiian Airlines Inc.",6,"Diverted",6,0.000891398009211113
+"355","Hawaiian Airlines Inc.",7,"Diverted",16,0.00227855311876958
+"356","Hawaiian Airlines Inc.",8,"Diverted",4,0.000567456376791034
+"357","Hawaiian Airlines Inc.",9,"Diverted",4,0.000647458724506313
+"358","Hawaiian Airlines Inc.",10,"Diverted",7,0.00112323491655969
+"359","Hawaiian Airlines Inc.",11,"Diverted",6,0.000987816924596641
+"360","Hawaiian Airlines Inc.",12,"Diverted",10,0.00157554750275721
+"361","JetBlue Airways",1,"Diverted",52,0.00225910157268225
+"362","JetBlue Airways",2,"Diverted",75,0.00344415870683321
+"363","JetBlue Airways",3,"Diverted",60,0.00251836306400839
+"364","JetBlue Airways",4,"Diverted",49,0.00211325311597016
+"365","JetBlue Airways",5,"Diverted",37,0.00152640264026403
+"366","JetBlue Airways",6,"Diverted",48,0.0020130006290627
+"367","JetBlue Airways",7,"Diverted",75,0.00300878565411
+"368","JetBlue Airways",8,"Diverted",41,0.00165803946942737
+"369","JetBlue Airways",9,"Diverted",38,0.001696731559207
+"370","JetBlue Airways",10,"Diverted",50,0.00215248181152869
+"371","JetBlue Airways",11,"Diverted",40,0.00174109863323757
+"372","JetBlue Airways",12,"Diverted",100,0.00411048997040447
+"373","SkyWest Airlines Inc.",1,"Diverted",194,0.00407400407400407
+"374","SkyWest Airlines Inc.",2,"Diverted",131,0.00287179936864258
+"375","SkyWest Airlines Inc.",3,"Diverted",189,0.00363063564938433
+"376","SkyWest Airlines Inc.",4,"Diverted",88,0.00175589121455793
+"377","SkyWest Airlines Inc.",5,"Diverted",151,0.00294616900474119
+"378","SkyWest Airlines Inc.",6,"Diverted",173,0.00327341532639546
+"379","SkyWest Airlines Inc.",7,"Diverted",186,0.00338403318535769
+"380","SkyWest Airlines Inc.",8,"Diverted",175,0.00320794837952779
+"381","SkyWest Airlines Inc.",9,"Diverted",122,0.00249101600784057
+"382","SkyWest Airlines Inc.",10,"Diverted",71,0.00139174752523768
+"383","SkyWest Airlines Inc.",11,"Diverted",146,0.00308759463689041
+"384","SkyWest Airlines Inc.",12,"Diverted",283,0.00570242604981059
+"385","Southwest Airlines Co.",1,"Diverted",179,0.00171860898285231
+"386","Southwest Airlines Co.",2,"Diverted",168,0.001727950629982
+"387","Southwest Airlines Co.",3,"Diverted",217,0.00193744810406864
+"388","Southwest Airlines Co.",4,"Diverted",184,0.00170599415882435
+"389","Southwest Airlines Co.",5,"Diverted",390,0.00355039281910293
+"390","Southwest Airlines Co.",6,"Diverted",463,0.00412339917710133
+"391","Southwest Airlines Co.",7,"Diverted",483,0.00419241719325047
+"392","Southwest Airlines Co.",8,"Diverted",362,0.00326788535319341
+"393","Southwest Airlines Co.",9,"Diverted",140,0.00134508036855202
+"394","Southwest Airlines Co.",10,"Diverted",107,0.000988197048338536
+"395","Southwest Airlines Co.",11,"Diverted",154,0.0014402753357525
+"396","Southwest Airlines Co.",12,"Diverted",217,0.00195837770517842
+"397","Spirit Air Lines",1,"Diverted",10,0.000905223137503395
+"398","Spirit Air Lines",2,"Diverted",12,0.001158972377825
+"399","Spirit Air Lines",3,"Diverted",20,0.00177841010136938
+"400","Spirit Air Lines",4,"Diverted",22,0.00195018172147859
+"401","Spirit Air Lines",5,"Diverted",14,0.00116744496330887
+"402","Spirit Air Lines",6,"Diverted",21,0.0018095648427402
+"403","Spirit Air Lines",7,"Diverted",34,0.00283451438099208
+"404","Spirit Air Lines",8,"Diverted",15,0.00125083388925951
+"405","Spirit Air Lines",9,"Diverted",13,0.00116581472513676
+"406","Spirit Air Lines",10,"Diverted",16,0.00139094149352343
+"407","Spirit Air Lines",11,"Diverted",7,0.000603084345653485
+"408","Spirit Air Lines",12,"Diverted",15,0.0012071463061323
+"409","United Air Lines Inc.",1,"Diverted",56,0.0014084152813058
+"410","United Air Lines Inc.",2,"Diverted",59,0.00151499589153657
+"411","United Air Lines Inc.",3,"Diverted",77,0.00174011299435028
+"412","United Air Lines Inc.",4,"Diverted",81,0.00187149095446039
+"413","United Air Lines Inc.",5,"Diverted",172,0.00374613407675219
+"414","United Air Lines Inc.",6,"Diverted",242,0.00521282095467861
+"415","United Air Lines Inc.",7,"Diverted",230,0.00478678016191804
+"416","United Air Lines Inc.",8,"Diverted",181,0.00363760601310342
+"417","United Air Lines Inc.",9,"Diverted",83,0.00176840311068499
+"418","United Air Lines Inc.",10,"Diverted",65,0.00130127524974475
+"419","United Air Lines Inc.",11,"Diverted",64,0.00138882860986936
+"420","United Air Lines Inc.",12,"Diverted",97,0.0021217026116628
+"421","Virgin America",1,"Diverted",7,0.0013001485884101
+"422","Virgin America",2,"Diverted",9,0.00182149362477231
+"423","Virgin America",3,"Diverted",9,0.00159716060337178
+"424","Virgin America",4,"Diverted",6,0.00106307583274274
+"425","Virgin America",5,"Diverted",12,0.00205233453052848
+"426","Virgin America",6,"Diverted",15,0.00253421186011151
+"427","Virgin America",7,"Diverted",19,0.00311475409836066
+"428","Virgin America",8,"Diverted",7,0.0011530225662988
+"429","Virgin America",9,"Diverted",4,0.00069856793573175
+"430","Virgin America",10,"Diverted",16,0.00273317389818927
+"431","Virgin America",11,"Diverted",2,0.000338009126246409
+"432","Virgin America",12,"Diverted",89,0.0146309386815716
+"433","Alaska Airlines Inc.",1,"Carrier",410.72,0.0289137627595917
+"434","Alaska Airlines Inc.",2,"Carrier",390.42,0.029137995372789
+"435","Alaska Airlines Inc.",3,"Carrier",449.26,0.0303944252756918
+"436","Alaska Airlines Inc.",4,"Carrier",382.61,0.0260953485199836
+"437","Alaska Airlines Inc.",5,"Carrier",404.49,0.026291192720182
+"438","Alaska Airlines Inc.",6,"Carrier",458.06,0.029120152574698
+"439","Alaska Airlines Inc.",7,"Carrier",466.95,0.0287247785433071
+"440","Alaska Airlines Inc.",8,"Carrier",460.72,0.0279987845639623
+"441","Alaska Airlines Inc.",9,"Carrier",319.39,0.0230473372781065
+"442","Alaska Airlines Inc.",10,"Carrier",342.5,0.0243114707552527
+"443","Alaska Airlines Inc.",11,"Carrier",417.04,0.0299039151011043
+"444","Alaska Airlines Inc.",12,"Carrier",637.87,0.043945573544609
+"445","American Airlines Inc.",1,"Carrier",4397.83,0.058187748081503
+"446","American Airlines Inc.",2,"Carrier",3437.04,0.0481108622620381
+"447","American Airlines Inc.",3,"Carrier",4301.65,0.0543693676613708
+"448","American Airlines Inc.",4,"Carrier",3557.23,0.0475190691833981
+"449","American Airlines Inc.",5,"Carrier",4246.9,0.0539782404229899
+"450","American Airlines Inc.",6,"Carrier",6277.23,0.0788121484531941
+"451","American Airlines Inc.",7,"Carrier",6565.57,0.0803835794216313
+"452","American Airlines Inc.",8,"Carrier",6113.78,0.076192719432709
+"453","American Airlines Inc.",9,"Carrier",3634.08,0.0501529119514215
+"454","American Airlines Inc.",10,"Carrier",3433.82,0.0456801160021817
+"455","American Airlines Inc.",11,"Carrier",3032.41,0.0422229493588048
+"456","American Airlines Inc.",12,"Carrier",4538.33,0.0614933199642286
+"457","Delta Air Lines Inc.",1,"Carrier",2919.7,0.0418829166128731
+"458","Delta Air Lines Inc.",2,"Carrier",2669.67,0.039392513021794
+"459","Delta Air Lines Inc.",3,"Carrier",3034.07,0.0387938882495845
+"460","Delta Air Lines Inc.",4,"Carrier",2746.23,0.035848290626183
+"461","Delta Air Lines Inc.",5,"Carrier",3342.27,0.0414900193654104
+"462","Delta Air Lines Inc.",6,"Carrier",4103.74,0.0503421372229106
+"463","Delta Air Lines Inc.",7,"Carrier",4699.28,0.0561597571614661
+"464","Delta Air Lines Inc.",8,"Carrier",5936.1,0.0702164655784244
+"465","Delta Air Lines Inc.",9,"Carrier",2507.47,0.0332225240145744
+"466","Delta Air Lines Inc.",10,"Carrier",2185.31,0.0276737118036648
+"467","Delta Air Lines Inc.",11,"Carrier",2235.26,0.0301642308678461
+"468","Delta Air Lines Inc.",12,"Carrier",4394.81,0.0613697425012568
+"469","ExpressJet Airlines Inc.",1,"Carrier",2040.57,0.0486197283774124
+"470","ExpressJet Airlines Inc.",2,"Carrier",2102.4,0.052657416220007
+"471","ExpressJet Airlines Inc.",3,"Carrier",1980.03,0.0444112237574018
+"472","ExpressJet Airlines Inc.",4,"Carrier",1581.77,0.0387945454099527
+"473","ExpressJet Airlines Inc.",5,"Carrier",1794.56,0.0434581295103405
+"474","ExpressJet Airlines Inc.",6,"Carrier",2503.81,0.0582620127981385
+"475","ExpressJet Airlines Inc.",7,"Carrier",3147.88,0.0722620632661494
+"476","ExpressJet Airlines Inc.",8,"Carrier",2946.92,0.068129002427465
+"477","ExpressJet Airlines Inc.",9,"Carrier",1938.56,0.049714315022824
+"478","ExpressJet Airlines Inc.",10,"Carrier",1891.65,0.0477147181233447
+"479","ExpressJet Airlines Inc.",11,"Carrier",1798.07,0.0492635414668895
+"480","ExpressJet Airlines Inc.",12,"Carrier",2597.24,0.0692357316130408
+"481","Frontier Airlines Inc.",1,"Carrier",258.74,0.0364473869559093
+"482","Frontier Airlines Inc.",2,"Carrier",206.42,0.0310592837797171
+"483","Frontier Airlines Inc.",3,"Carrier",288.68,0.0409069009494119
+"484","Frontier Airlines Inc.",4,"Carrier",218.63,0.0306849122807018
+"485","Frontier Airlines Inc.",5,"Carrier",347.61,0.0438901515151515
+"486","Frontier Airlines Inc.",6,"Carrier",455.85,0.0562291846552362
+"487","Frontier Airlines Inc.",7,"Carrier",793.83,0.0880175185719038
+"488","Frontier Airlines Inc.",8,"Carrier",778.49,0.0871671705296159
+"489","Frontier Airlines Inc.",9,"Carrier",646.04,0.0747212583853805
+"490","Frontier Airlines Inc.",10,"Carrier",490.81,0.056460370412976
+"491","Frontier Airlines Inc.",11,"Carrier",265.47,0.0344453094589334
+"492","Frontier Airlines Inc.",12,"Carrier",763.03,0.0933826948965855
+"493","Hawaiian Airlines Inc.",1,"Carrier",345.05,0.0549530179964963
+"494","Hawaiian Airlines Inc.",2,"Carrier",263.04,0.044956417706375
+"495","Hawaiian Airlines Inc.",3,"Carrier",282.58,0.0444657749803304
+"496","Hawaiian Airlines Inc.",4,"Carrier",210.04,0.0336656515467222
+"497","Hawaiian Airlines Inc.",5,"Carrier",255.73,0.0397590174129353
+"498","Hawaiian Airlines Inc.",6,"Carrier",343.26,0.0509968801069678
+"499","Hawaiian Airlines Inc.",7,"Carrier",378.68,0.0539276559384791
+"500","Hawaiian Airlines Inc.",8,"Carrier",271.94,0.0385785217761385
+"501","Hawaiian Airlines Inc.",9,"Carrier",271.66,0.0439721592748462
+"502","Hawaiian Airlines Inc.",10,"Carrier",260.18,0.0417490372272144
+"503","Hawaiian Airlines Inc.",11,"Carrier",314.08,0.0517089232795522
+"504","Hawaiian Airlines Inc.",12,"Carrier",496.83,0.0782779265794864
+"505","JetBlue Airways",1,"Carrier",2205.1,0.0957989399600313
+"506","JetBlue Airways",2,"Carrier",1994.72,0.0916017634092579
+"507","JetBlue Airways",3,"Carrier",1833.66,0.0769636935991605
+"508","JetBlue Airways",4,"Carrier",1601.07,0.0690503299262518
+"509","JetBlue Airways",5,"Carrier",1614.69,0.0666126237623762
+"510","JetBlue Airways",6,"Carrier",1818.11,0.0762470119521912
+"511","JetBlue Airways",7,"Carrier",2399.23,0.0962502507321378
+"512","JetBlue Airways",8,"Carrier",1979.86,0.0800655127790359
+"513","JetBlue Airways",9,"Carrier",1309.08,0.0584515091980711
+"514","JetBlue Airways",10,"Carrier",1606.87,0.0691751689698222
+"515","JetBlue Airways",11,"Carrier",1262.86,0.05496909549926
+"516","JetBlue Airways",12,"Carrier",2212.3,0.0909363696152581
+"517","SkyWest Airlines Inc.",1,"Carrier",2313.65,0.0485866985866986
+"518","SkyWest Airlines Inc.",2,"Carrier",1872.02,0.04103867064188
+"519","SkyWest Airlines Inc.",3,"Carrier",2197.63,0.0422158403288703
+"520","SkyWest Airlines Inc.",4,"Carrier",1666.19,0.0332460043498214
+"521","SkyWest Airlines Inc.",5,"Carrier",1795.98,0.0350414609876495
+"522","SkyWest Airlines Inc.",6,"Carrier",2073.1,0.0392261116367077
+"523","SkyWest Airlines Inc.",7,"Carrier",2331.63,0.042421039225675
+"524","SkyWest Airlines Inc.",8,"Carrier",2163.66,0.0396623405191377
+"525","SkyWest Airlines Inc.",9,"Carrier",1284.42,0.0262254982032016
+"526","SkyWest Airlines Inc.",10,"Carrier",1606.29,0.0314866215818877
+"527","SkyWest Airlines Inc.",11,"Carrier",1524.28,0.0322353339254748
+"528","SkyWest Airlines Inc.",12,"Carrier",2913.18,0.0587003304586121
+"529","Southwest Airlines Co.",1,"Carrier",4505.13,0.0432545077481422
+"530","Southwest Airlines Co.",2,"Carrier",3139.79,0.0322940601697094
+"531","Southwest Airlines Co.",3,"Carrier",5238.26,0.0467689258323438
+"532","Southwest Airlines Co.",4,"Carrier",5131.45,0.0475773028603217
+"533","Southwest Airlines Co.",5,"Carrier",5221.88,0.0475377570620955
+"534","Southwest Airlines Co.",6,"Carrier",7723.94,0.068788094686782
+"535","Southwest Airlines Co.",7,"Carrier",9070.16,0.0787285605166308
+"536","Southwest Airlines Co.",8,"Carrier",5761.62,0.0520119160460393
+"537","Southwest Airlines Co.",9,"Carrier",3970.85,0.0381508027247485
+"538","Southwest Airlines Co.",10,"Carrier",3944.69,0.0364311309776686
+"539","Southwest Airlines Co.",11,"Carrier",3921.77,0.0366781078148966
+"540","Southwest Airlines Co.",12,"Carrier",7435.47,0.0671034962005668
+"541","Spirit Air Lines",1,"Carrier",872.57,0.0789870553091337
+"542","Spirit Air Lines",2,"Carrier",593.38,0.0573092524628163
+"543","Spirit Air Lines",3,"Carrier",57.14,0.00508091765961231
+"544","Spirit Air Lines",4,"Carrier",644.27,0.0571110717135006
+"545","Spirit Air Lines",5,"Carrier",623.45,0.0519888258839226
+"546","Spirit Air Lines",6,"Carrier",714.68,0.0615838000861698
+"547","Spirit Air Lines",7,"Carrier",216.06,0.0180125052105044
+"548","Spirit Air Lines",8,"Carrier",303.06,0.0252718478985991
+"549","Spirit Air Lines",9,"Carrier",36.98,0.00331629450273518
+"550","Spirit Air Lines",10,"Carrier",186.7,0.0162305485525515
+"551","Spirit Air Lines",11,"Carrier",324.47,0.0279546825191695
+"552","Spirit Air Lines",12,"Carrier",722.86,0.0581731852567198
+"553","United Air Lines Inc.",1,"Carrier",2064.86,0.0519317924599482
+"554","United Air Lines Inc.",2,"Carrier",1553.06,0.0398793138866064
+"555","United Air Lines Inc.",3,"Carrier",2330.4,0.052664406779661
+"556","United Air Lines Inc.",4,"Carrier",1735.66,0.0401021233335644
+"557","United Air Lines Inc.",5,"Carrier",2204.2,0.048007143790565
+"558","United Air Lines Inc.",6,"Carrier",2865.74,0.0617297087713252
+"559","United Air Lines Inc.",7,"Carrier",3152.23,0.0656044870860996
+"560","United Air Lines Inc.",8,"Carrier",3083.73,0.0619745568551791
+"561","United Air Lines Inc.",9,"Carrier",2259.4,0.0481389155214659
+"562","United Air Lines Inc.",10,"Carrier",2518.95,0.0504284198514544
+"563","United Air Lines Inc.",11,"Carrier",1922.49,0.0417188924091836
+"564","United Air Lines Inc.",12,"Carrier",3334.83,0.0729434795922831
+"565","Virgin America",1,"Carrier",237.8,0.0441679049034175
+"566","Virgin America",2,"Carrier",161.3,0.0326452135195305
+"567","Virgin America",3,"Carrier",266.02,0.0472085181898846
+"568","Virgin America",4,"Carrier",237.04,0.0419985825655563
+"569","Virgin America",5,"Carrier",280.78,0.0480212074568155
+"570","Virgin America",6,"Carrier",388.19,0.0655837134651124
+"571","Virgin America",7,"Carrier",357.69,0.0586377049180328
+"572","Virgin America",8,"Carrier",313.22,0.0515928183165871
+"573","Virgin America",9,"Carrier",230.98,0.0403388054488299
+"574","Virgin America",10,"Carrier",226.93,0.0387649470447557
+"575","Virgin America",11,"Carrier",232.53,0.0392986310630387
+"576","Virgin America",12,"Carrier",313.53,0.051542002301496
+"577","Alaska Airlines Inc.",1,"Weather",65.1,0.00458289334741288
+"578","Alaska Airlines Inc.",2,"Weather",27.14,0.00202552429285768
+"579","Alaska Airlines Inc.",3,"Weather",22.61,0.0015296664637034
+"580","Alaska Airlines Inc.",4,"Weather",11.59,0.000790478788705497
+"581","Alaska Airlines Inc.",5,"Weather",14.3,0.000929476763080923
+"582","Alaska Airlines Inc.",6,"Weather",35.03,0.0022269548633185
+"583","Alaska Airlines Inc.",7,"Weather",26.67,0.001640625
+"584","Alaska Airlines Inc.",8,"Weather",39.29,0.00238772409601945
+"585","Alaska Airlines Inc.",9,"Weather",24.51,0.00176865348535142
+"586","Alaska Airlines Inc.",10,"Weather",37.36,0.0026519023282226
+"587","Alaska Airlines Inc.",11,"Weather",23.06,0.0016535207227879
+"588","Alaska Airlines Inc.",12,"Weather",134.45,0.00926283155356528
+"589","American Airlines Inc.",1,"Weather",374.4,0.00495369145276528
+"590","American Airlines Inc.",2,"Weather",327.03,0.0045776875699888
+"591","American Airlines Inc.",3,"Weather",412.13,0.00520898899126632
+"592","American Airlines Inc.",4,"Weather",315.71,0.0042173953699622
+"593","American Airlines Inc.",5,"Weather",699.27,0.00888774498589186
+"594","American Airlines Inc.",6,"Weather",786.37,0.0098730664925673
+"595","American Airlines Inc.",7,"Weather",953.9,0.0116787874335806
+"596","American Airlines Inc.",8,"Weather",836.34,0.0104228511608779
+"597","American Airlines Inc.",9,"Weather",487.08,0.00672205354678443
+"598","American Airlines Inc.",10,"Weather",86.16,0.00114618669433691
+"599","American Airlines Inc.",11,"Weather",112.26,0.00156309611662652
+"600","American Airlines Inc.",12,"Weather",397.33,0.00538372943822661
+"601","Delta Air Lines Inc.",1,"Weather",549.45,0.00788182639755562
+"602","Delta Air Lines Inc.",2,"Weather",461.35,0.00680748402709123
+"603","Delta Air Lines Inc.",3,"Weather",350.46,0.00448101265822785
+"604","Delta Air Lines Inc.",4,"Weather",160.54,0.00209563094756354
+"605","Delta Air Lines Inc.",5,"Weather",282.82,0.00351084959531258
+"606","Delta Air Lines Inc.",6,"Weather",673.44,0.00826134425947962
+"607","Delta Air Lines Inc.",7,"Weather",890.76,0.0106452191163641
+"608","Delta Air Lines Inc.",8,"Weather",476.31,0.00563413768630234
+"609","Delta Air Lines Inc.",9,"Weather",271.2,0.00359324279562769
+"610","Delta Air Lines Inc.",10,"Weather",76.09,0.000963567059657832
+"611","Delta Air Lines Inc.",11,"Weather",141.49,0.00190936939125272
+"612","Delta Air Lines Inc.",12,"Weather",694.99,0.00970493771993521
+"613","ExpressJet Airlines Inc.",1,"Weather",128.85,0.00307005003573981
+"614","ExpressJet Airlines Inc.",2,"Weather",67.69,0.00169538646496018
+"615","ExpressJet Airlines Inc.",3,"Weather",98.3,0.00220482684371075
+"616","ExpressJet Airlines Inc.",4,"Weather",76.8,0.00188359944080642
+"617","ExpressJet Airlines Inc.",5,"Weather",96.83,0.00234489272049208
+"618","ExpressJet Airlines Inc.",6,"Weather",112.98,0.00262897033158813
+"619","ExpressJet Airlines Inc.",7,"Weather",139,0.00319085441439787
+"620","ExpressJet Airlines Inc.",8,"Weather",118.83,0.00274719685585481
+"621","ExpressJet Airlines Inc.",9,"Weather",61.74,0.00158332051084782
+"622","ExpressJet Airlines Inc.",10,"Weather",39.48,0.000995838062807416
+"623","ExpressJet Airlines Inc.",11,"Weather",44.74,0.00122578700786323
+"624","ExpressJet Airlines Inc.",12,"Weather",98.06,0.00261402713725908
+"625","Frontier Airlines Inc.",1,"Weather",21.44,0.00302014368220876
+"626","Frontier Airlines Inc.",2,"Weather",10.63,0.00159945832079446
+"627","Frontier Airlines Inc.",3,"Weather",29.17,0.00413348448349157
+"628","Frontier Airlines Inc.",4,"Weather",7.98,0.00112
+"629","Frontier Airlines Inc.",5,"Weather",37.9,0.00478535353535353
+"630","Frontier Airlines Inc.",6,"Weather",24.29,0.00299617614407302
+"631","Frontier Airlines Inc.",7,"Weather",42.36,0.00469675130280519
+"632","Frontier Airlines Inc.",8,"Weather",33.63,0.0037655357742694
+"633","Frontier Airlines Inc.",9,"Weather",20.72,0.00239648392320148
+"634","Frontier Airlines Inc.",10,"Weather",5.46,0.000628091567928218
+"635","Frontier Airlines Inc.",11,"Weather",3.29,0.000426884650317893
+"636","Frontier Airlines Inc.",12,"Weather",40.45,0.00495043446334598
+"637","Hawaiian Airlines Inc.",1,"Weather",26.72,0.0042554546902373
+"638","Hawaiian Airlines Inc.",2,"Weather",22.96,0.00392411553580584
+"639","Hawaiian Airlines Inc.",3,"Weather",62.76,0.0098756884343037
+"640","Hawaiian Airlines Inc.",4,"Weather",6.69,0.00107228722551691
+"641","Hawaiian Airlines Inc.",5,"Weather",14.13,0.00219682835820896
+"642","Hawaiian Airlines Inc.",6,"Weather",5.56,0.000826028821868965
+"643","Hawaiian Airlines Inc.",7,"Weather",9.65,0.0013742523497579
+"644","Hawaiian Airlines Inc.",8,"Weather",3,0.000425592282593276
+"645","Hawaiian Airlines Inc.",9,"Weather",3.75,0.000606992554224668
+"646","Hawaiian Airlines Inc.",10,"Weather",0.83,0.000133183568677792
+"647","Hawaiian Airlines Inc.",11,"Weather",12.7,0.00209087915706289
+"648","Hawaiian Airlines Inc.",12,"Weather",89.9,0.0141641720497873
+"649","JetBlue Airways",1,"Weather",98.23,0.00426752975931879
+"650","JetBlue Airways",2,"Weather",206.89,0.00950082659808964
+"651","JetBlue Airways",3,"Weather",71.93,0.00301909758656873
+"652","JetBlue Airways",4,"Weather",38.43,0.00165739422952517
+"653","JetBlue Airways",5,"Weather",97.81,0.00403506600660066
+"654","JetBlue Airways",6,"Weather",111.09,0.00465883833088698
+"655","JetBlue Airways",7,"Weather",207.24,0.00831387651943676
+"656","JetBlue Airways",8,"Weather",167.9,0.00678987382724038
+"657","JetBlue Airways",9,"Weather",140.39,0.00626853009465976
+"658","JetBlue Airways",10,"Weather",61.23,0.00263592922639804
+"659","JetBlue Airways",11,"Weather",19.8,0.000861843823452599
+"660","JetBlue Airways",12,"Weather",68.2,0.00280335415981585
+"661","SkyWest Airlines Inc.",1,"Weather",252.28,0.0052978852978853
+"662","SkyWest Airlines Inc.",2,"Weather",178.7,0.00391748509294984
+"663","SkyWest Airlines Inc.",3,"Weather",243.67,0.0046808306279655
+"664","SkyWest Airlines Inc.",4,"Weather",193.26,0.0038561765468803
+"665","SkyWest Airlines Inc.",5,"Weather",219.14,0.00427565215694691
+"666","SkyWest Airlines Inc.",6,"Weather",256.66,0.00485638599810785
+"667","SkyWest Airlines Inc.",7,"Weather",322,0.00585838003056546
+"668","SkyWest Airlines Inc.",8,"Weather",275.03,0.00504161167326588
+"669","SkyWest Airlines Inc.",9,"Weather",176.55,0.00360482685396929
+"670","SkyWest Airlines Inc.",10,"Weather",178.97,0.00350818386748995
+"671","SkyWest Airlines Inc.",11,"Weather",258.22,0.00546081292560166
+"672","SkyWest Airlines Inc.",12,"Weather",528.83,0.0106558797453051
+"673","Southwest Airlines Co.",1,"Weather",329.78,0.00316627301879909
+"674","Southwest Airlines Co.",2,"Weather",336.7,0.00346310105425559
+"675","Southwest Airlines Co.",3,"Weather",537.79,0.00480156781514781
+"676","Southwest Airlines Co.",4,"Weather",465.7,0.00431783412915488
+"677","Southwest Airlines Co.",5,"Weather",639.47,0.00582146075905578
+"678","Southwest Airlines Co.",6,"Weather",788.06,0.00701832819763817
+"679","Southwest Airlines Co.",7,"Weather",1066.73,0.0092591660301368
+"680","Southwest Airlines Co.",8,"Weather",774.64,0.00699291356352968
+"681","Southwest Airlines Co.",9,"Weather",413.55,0.00397327133153349
+"682","Southwest Airlines Co.",10,"Weather",217.27,0.00200659413731321
+"683","Southwest Airlines Co.",11,"Weather",278.75,0.00260699188208447
+"684","Southwest Airlines Co.",12,"Weather",431.11,0.00389067379022797
+"685","Spirit Air Lines",1,"Weather",31.1,0.00281524395763556
+"686","Spirit Air Lines",2,"Weather",22.84,0.00220591075912691
+"687","Spirit Air Lines",3,"Weather",3.43,0.000304997332384848
+"688","Spirit Air Lines",4,"Weather",47.5,0.00421061962591969
+"689","Spirit Air Lines",5,"Weather",71.68,0.00597731821214143
+"690","Spirit Air Lines",6,"Weather",55.43,0.00477638948728996
+"691","Spirit Air Lines",7,"Weather",17.02,0.00141892455189662
+"692","Spirit Air Lines",8,"Weather",53.37,0.00445046697798532
+"693","Spirit Air Lines",9,"Weather",5.39,0.000483364720652856
+"694","Spirit Air Lines",10,"Weather",5.65,0.000491176214900461
+"695","Spirit Air Lines",11,"Weather",18.37,0.00158266563280779
+"696","Spirit Air Lines",12,"Weather",41.26,0.00332045710606792
+"697","United Air Lines Inc.",1,"Weather",294.64,0.00741027640149896
+"698","United Air Lines Inc.",2,"Weather",284.7,0.0073104971240756
+"699","United Air Lines Inc.",3,"Weather",265.09,0.00599073446327684
+"700","United Air Lines Inc.",4,"Weather",160.74,0.00371386982740695
+"701","United Air Lines Inc.",5,"Weather",230.11,0.00501176111861306
+"702","United Air Lines Inc.",6,"Weather",380.9,0.00820480785800448
+"703","United Air Lines Inc.",7,"Weather",571.45,0.0118930674936003
+"704","United Air Lines Inc.",8,"Weather",431.36,0.0086691587282447
+"705","United Air Lines Inc.",9,"Weather",236.23,0.00503313092574838
+"706","United Air Lines Inc.",10,"Weather",65.94,0.00132009369181798
+"707","United Air Lines Inc.",11,"Weather",122.15,0.00265070960461786
+"708","United Air Lines Inc.",12,"Weather",468.9,0.0102563541712236
+"709","Virgin America",1,"Weather",71.2,0.0132243684992571
+"710","Virgin America",2,"Weather",75,0.0151791135397693
+"711","Virgin America",3,"Weather",71.94,0.0127666370896185
+"712","Virgin America",4,"Weather",99.94,0.0177072997873848
+"713","Virgin America",5,"Weather",80.11,0.013701043270053
+"714","Virgin America",6,"Weather",106.93,0.0180655516134482
+"715","Virgin America",7,"Weather",96.58,0.0158327868852459
+"716","Virgin America",8,"Weather",104.9,0.0172788667435348
+"717","Virgin America",9,"Weather",96.58,0.0168669228082431
+"718","Virgin America",10,"Weather",71.84,0.0122719508028698
+"719","Virgin America",11,"Weather",137.92,0.0233091093459523
+"720","Virgin America",12,"Weather",210.97,0.0346819003781029
+"721","Alaska Airlines Inc.",1,"NAS",729.27,0.0513389651531151
+"722","Alaska Airlines Inc.",2,"NAS",541.18,0.0403895813120382
+"723","Alaska Airlines Inc.",3,"NAS",861.83,0.0583066098369528
+"724","Alaska Airlines Inc.",4,"NAS",747.71,0.0509964534169963
+"725","Alaska Airlines Inc.",5,"NAS",676.62,0.043979200519987
+"726","Alaska Airlines Inc.",6,"NAS",965.82,0.0613998728544183
+"727","Alaska Airlines Inc.",7,"NAS",767.28,0.0471998031496063
+"728","Alaska Airlines Inc.",8,"NAS",909.44,0.0552683075053175
+"729","Alaska Airlines Inc.",9,"NAS",653.91,0.0471864626930293
+"730","Alaska Airlines Inc.",10,"NAS",836.83,0.0594001987507098
+"731","Alaska Airlines Inc.",11,"NAS",819.74,0.0587795783737272
+"732","Alaska Airlines Inc.",12,"NAS",1429.71,0.0984987943506717
+"733","American Airlines Inc.",1,"NAS",4235.88,0.0560449854458852
+"734","American Airlines Inc.",2,"NAS",4222.62,0.0591072228443449
+"735","American Airlines Inc.",3,"NAS",5303.82,0.0670359837712812
+"736","American Airlines Inc.",4,"NAS",4418.16,0.0590197571434296
+"737","American Airlines Inc.",5,"NAS",5272.6,0.0670149215790945
+"738","American Airlines Inc.",6,"NAS",6492.37,0.0815132834471675
+"739","American Airlines Inc.",7,"NAS",6873.66,0.0841555865716594
+"740","American Airlines Inc.",8,"NAS",6775.85,0.0844437382385563
+"741","American Airlines Inc.",9,"NAS",4610.6,0.0636295887386144
+"742","American Airlines Inc.",10,"NAS",4173.24,0.0555166221016083
+"743","American Airlines Inc.",11,"NAS",4293.22,0.0597783316392598
+"744","American Airlines Inc.",12,"NAS",5210.07,0.0705952413213734
+"745","Delta Air Lines Inc.",1,"NAS",3230.45,0.0463406062170963
+"746","Delta Air Lines Inc.",2,"NAS",3035.59,0.0447918726298859
+"747","Delta Air Lines Inc.",3,"NAS",3227.52,0.0412673571154584
+"748","Delta Air Lines Inc.",4,"NAS",2380.33,0.0310719647029645
+"749","Delta Air Lines Inc.",5,"NAS",2847.44,0.0353473360146978
+"750","Delta Air Lines Inc.",6,"NAS",4206.1,0.0515978262202976
+"751","Delta Air Lines Inc.",7,"NAS",4805.07,0.0574240233277962
+"752","Delta Air Lines Inc.",8,"NAS",3876.27,0.0458513129879347
+"753","Delta Air Lines Inc.",9,"NAS",2640.26,0.0349819145412388
+"754","Delta Air Lines Inc.",10,"NAS",2071.91,0.026237668899667
+"755","Delta Air Lines Inc.",11,"NAS",2362.13,0.0318763073019986
+"756","Delta Air Lines Inc.",12,"NAS",4417.31,0.0616839356532425
+"757","ExpressJet Airlines Inc.",1,"NAS",2015.18,0.0480147724565166
+"758","ExpressJet Airlines Inc.",2,"NAS",2245.02,0.056229524620548
+"759","ExpressJet Airlines Inc.",3,"NAS",2308.67,0.0517824780190203
+"760","ExpressJet Airlines Inc.",4,"NAS",1785.63,0.0437944227797807
+"761","ExpressJet Airlines Inc.",5,"NAS",2249.4,0.0544728047658255
+"762","ExpressJet Airlines Inc.",6,"NAS",2350.91,0.0547041303083188
+"763","ExpressJet Airlines Inc.",7,"NAS",2726.53,0.0625896423488361
+"764","ExpressJet Airlines Inc.",8,"NAS",2699.74,0.0624145185527685
+"765","ExpressJet Airlines Inc.",9,"NAS",1918.29,0.0491944914602246
+"766","ExpressJet Airlines Inc.",10,"NAS",1635.61,0.041256400554925
+"767","ExpressJet Airlines Inc.",11,"NAS",1666.46,0.0456576892517603
+"768","ExpressJet Airlines Inc.",12,"NAS",2564.06,0.068351238237411
+"769","Frontier Airlines Inc.",1,"NAS",386.19,0.0544006198056064
+"770","Frontier Airlines Inc.",2,"NAS",237.1,0.0356755943424616
+"771","Frontier Airlines Inc.",3,"NAS",467.83,0.0662930423692787
+"772","Frontier Airlines Inc.",4,"NAS",431.25,0.0605263157894737
+"773","Frontier Airlines Inc.",5,"NAS",597.56,0.0754494949494949
+"774","Frontier Airlines Inc.",6,"NAS",906.92,0.111868755396571
+"775","Frontier Airlines Inc.",7,"NAS",1393.59,0.154517130502273
+"776","Frontier Airlines Inc.",8,"NAS",1218.07,0.136386742805957
+"777","Frontier Airlines Inc.",9,"NAS",831.26,0.0961438815637289
+"778","Frontier Airlines Inc.",10,"NAS",672.09,0.0773139307488784
+"779","Frontier Airlines Inc.",11,"NAS",421.56,0.0546983261969638
+"780","Frontier Airlines Inc.",12,"NAS",820.05,0.100361032921307
+"781","Hawaiian Airlines Inc.",1,"NAS",9.71,0.00154642458990285
+"782","Hawaiian Airlines Inc.",2,"NAS",12.54,0.0021432233806187
+"783","Hawaiian Airlines Inc.",3,"NAS",8.21,0.0012918961447679
+"784","Hawaiian Airlines Inc.",4,"NAS",3.93,0.000629908639205001
+"785","Hawaiian Airlines Inc.",5,"NAS",8.73,0.00135727611940299
+"786","Hawaiian Airlines Inc.",6,"NAS",22.23,0.00330262962412717
+"787","Hawaiian Airlines Inc.",7,"NAS",30.98,0.0044118484762176
+"788","Hawaiian Airlines Inc.",8,"NAS",21.25,0.00301461200170237
+"789","Hawaiian Airlines Inc.",9,"NAS",53.04,0.00858530268695371
+"790","Hawaiian Airlines Inc.",10,"NAS",6.58,0.00105584082156611
+"791","Hawaiian Airlines Inc.",11,"NAS",8.07,0.00132861376358248
+"792","Hawaiian Airlines Inc.",12,"NAS",8.21,0.00129352449976367
+"793","JetBlue Airways",1,"NAS",1603.57,0.0696659136328091
+"794","JetBlue Airways",2,"NAS",1728.42,0.0793727038941954
+"795","JetBlue Airways",3,"NAS",1652.14,0.0693448058761805
+"796","JetBlue Airways",4,"NAS",1373.67,0.0592431103635658
+"797","JetBlue Airways",5,"NAS",1404.79,0.0579533828382838
+"798","JetBlue Airways",6,"NAS",1863.4,0.0781463619207381
+"799","JetBlue Airways",7,"NAS",2099.82,0.0842387772295102
+"800","JetBlue Airways",8,"NAS",1743.07,0.070489728243287
+"801","JetBlue Airways",9,"NAS",1554.47,0.0694083764958028
+"802","JetBlue Airways",10,"NAS",1433.49,0.0617112230401653
+"803","JetBlue Airways",11,"NAS",1174.22,0.0511108209280056
+"804","JetBlue Airways",12,"NAS",1905.43,0.0783225090430779
+"805","SkyWest Airlines Inc.",1,"NAS",3125.57,0.0656370356370356
+"806","SkyWest Airlines Inc.",2,"NAS",2100.29,0.0460428358470712
+"807","SkyWest Airlines Inc.",3,"NAS",3144.23,0.0603997541156809
+"808","SkyWest Airlines Inc.",4,"NAS",1986.23,0.0396318614442205
+"809","SkyWest Airlines Inc.",5,"NAS",2232.41,0.043556669853472
+"810","SkyWest Airlines Inc.",6,"NAS",2182.99,0.0413053926206244
+"811","SkyWest Airlines Inc.",7,"NAS",2408.92,0.0438272323702787
+"812","SkyWest Airlines Inc.",8,"NAS",2918.78,0.0535045461211321
+"813","SkyWest Airlines Inc.",9,"NAS",1802.17,0.036797002613525
+"814","SkyWest Airlines Inc.",10,"NAS",2366.3,0.0463843967460551
+"815","SkyWest Airlines Inc.",11,"NAS",2111.54,0.0446546546546547
+"816","SkyWest Airlines Inc.",12,"NAS",3985.95,0.0803165551704683
+"817","Southwest Airlines Co.",1,"NAS",2893.3,0.0277790579334447
+"818","Southwest Airlines Co.",2,"NAS",2277.47,0.0234247364361018
+"819","Southwest Airlines Co.",3,"NAS",4376.27,0.0390727926930529
+"820","Southwest Airlines Co.",4,"NAS",4216.48,0.0390939687543461
+"821","Southwest Airlines Co.",5,"NAS",4176.81,0.0380238877711726
+"822","Southwest Airlines Co.",6,"NAS",4957.73,0.0441526993569991
+"823","Southwest Airlines Co.",7,"NAS",4920.19,0.0427070168738282
+"824","Southwest Airlines Co.",8,"NAS",4947.13,0.0446592642744301
+"825","Southwest Airlines Co.",9,"NAS",3510.8,0.0337307725565174
+"826","Southwest Airlines Co.",10,"NAS",4167.37,0.0384876890965847
+"827","Southwest Airlines Co.",11,"NAS",3684.57,0.0344597097003479
+"828","Southwest Airlines Co.",12,"NAS",5087.48,0.0459133981914337
+"829","Spirit Air Lines",1,"NAS",1297.11,0.117417398388703
+"830","Spirit Air Lines",2,"NAS",2097.88,0.202615414332625
+"831","Spirit Air Lines",3,"NAS",3664.48,0.325847412413303
+"832","Spirit Air Lines",4,"NAS",1282.15,0.113655704281535
+"833","Spirit Air Lines",5,"NAS",1223.83,0.102053869246164
+"834","Spirit Air Lines",6,"NAS",1276.28,0.109976734166308
+"835","Spirit Air Lines",7,"NAS",2426.35,0.202280116715298
+"836","Spirit Air Lines",8,"NAS",2337.08,0.194886591060707
+"837","Spirit Air Lines",9,"NAS",1512.77,0.135662272441933
+"838","Spirit Air Lines",10,"NAS",1159.94,0.100838042249848
+"839","Spirit Air Lines",11,"NAS",832.75,0.0717454984061342
+"840","Spirit Air Lines",12,"NAS",1524.5,0.122686302913246
+"841","United Air Lines Inc.",1,"NAS",1715.67,0.0431495686728201
+"842","United Air Lines Inc.",2,"NAS",1650.28,0.0423757189811011
+"843","United Air Lines Inc.",3,"NAS",2544.49,0.0575025988700565
+"844","United Air Lines Inc.",4,"NAS",1854.67,0.0428518287470253
+"845","United Air Lines Inc.",5,"NAS",2306.84,0.0502426275210176
+"846","United Air Lines Inc.",6,"NAS",2854.81,0.0614942702050663
+"847","United Air Lines Inc.",7,"NAS",3175.13,0.0660810838935254
+"848","United Air Lines Inc.",8,"NAS",3612.99,0.0726112383938261
+"849","United Air Lines Inc.",9,"NAS",2494.61,0.0531503142644082
+"850","United Air Lines Inc.",10,"NAS",2818.44,0.0564240956137014
+"851","United Air Lines Inc.",11,"NAS",2252.61,0.048882643982466
+"852","United Air Lines Inc.",12,"NAS",3401.16,0.0743943304606501
+"853","Virgin America",1,"NAS",451.13,0.0837908618127786
+"854","Virgin America",2,"NAS",241.59,0.0488949605343048
+"855","Virgin America",3,"NAS",507.41,0.0900461401952085
+"856","Virgin America",4,"NAS",438.79,0.0777445074415308
+"857","Virgin America",5,"NAS",445.39,0.0761741063793398
+"858","Virgin America",6,"NAS",443.67,0.0749569183983781
+"859","Virgin America",7,"NAS",462.48,0.0758163934426229
+"860","Virgin America",8,"NAS",585.54,0.0964486904957997
+"861","Virgin America",9,"NAS",322.6,0.0563395040167656
+"862","Virgin America",10,"NAS",574.44,0.0981277758797404
+"863","Virgin America",11,"NAS",351.35,0.0593797532533378
+"864","Virgin America",12,"NAS",514.92,0.0846490218642117
+"865","Alaska Airlines Inc.",1,"Security",7.41,0.000521647307286167
+"866","Alaska Airlines Inc.",2,"Security",9.62,0.000717964027166206
+"867","Alaska Airlines Inc.",3,"Security",19.16,0.00129625871050673
+"868","Alaska Airlines Inc.",4,"Security",11.68,0.000796617105442641
+"869","Alaska Airlines Inc.",5,"Security",13.1,0.000851478713032174
+"870","Alaska Airlines Inc.",6,"Security",12.64,0.000803560076287349
+"871","Alaska Airlines Inc.",7,"Security",20.63,0.00126906988188976
+"872","Alaska Airlines Inc.",8,"Security",21.07,0.00128046186569432
+"873","Alaska Airlines Inc.",9,"Security",10.33,0.000745417809207678
+"874","Alaska Airlines Inc.",10,"Security",4.24,0.000300965360590574
+"875","Alaska Airlines Inc.",11,"Security",9.42,0.000675462498207371
+"876","Alaska Airlines Inc.",12,"Security",14.96,0.001030657940062
+"877","American Airlines Inc.",1,"Security",34.8,0.000460439269648055
+"878","American Airlines Inc.",2,"Security",28.4,0.000397536394176932
+"879","American Airlines Inc.",3,"Security",64.16,0.000810930370707415
+"880","American Airlines Inc.",4,"Security",32.92,0.000439760082288035
+"881","American Airlines Inc.",5,"Security",51.81,0.000658506825287882
+"882","American Airlines Inc.",6,"Security",40.56,0.000509240658899156
+"883","American Airlines Inc.",7,"Security",55.89,0.000684272386689194
+"884","American Airlines Inc.",8,"Security",62.84,0.00078314078837502
+"885","American Airlines Inc.",9,"Security",22.13,0.000305409881313828
+"886","American Airlines Inc.",10,"Security",21.99,0.000292533024703676
+"887","American Airlines Inc.",11,"Security",26.21,0.000364945209484955
+"888","American Airlines Inc.",12,"Security",42.74,0.00057911709709764
+"889","Delta Air Lines Inc.",1,"Security",2.87,4.11699731749652e-05
+"890","Delta Air Lines Inc.",2,"Security",5.36,7.90898762007348e-05
+"891","Delta Air Lines Inc.",3,"Security",8.82,0.00011277330264672
+"892","Delta Air Lines Inc.",4,"Security",2,2.61072747921208e-05
+"893","Delta Air Lines Inc.",5,"Security",10.7,0.000132826853369085
+"894","Delta Air Lines Inc.",6,"Security",5.55,6.8083957947422e-05
+"895","Delta Air Lines Inc.",7,"Security",7.69,9.19010002748664e-05
+"896","Delta Air Lines Inc.",8,"Security",16.46,0.000194700733380648
+"897","Delta Air Lines Inc.",9,"Security",6.4,8.47962901623054e-05
+"898","Delta Air Lines Inc.",10,"Security",8.84,0.00011194549621994
+"899","Delta Air Lines Inc.",11,"Security",7.57,0.000102155108430158
+"900","Delta Air Lines Inc.",12,"Security",10.58,0.000147740602133721
+"901","ExpressJet Airlines Inc.",1,"Security",0,0
+"902","ExpressJet Airlines Inc.",2,"Security",0,0
+"903","ExpressJet Airlines Inc.",3,"Security",0,0
+"904","ExpressJet Airlines Inc.",4,"Security",0,0
+"905","ExpressJet Airlines Inc.",5,"Security",0,0
+"906","ExpressJet Airlines Inc.",6,"Security",0,0
+"907","ExpressJet Airlines Inc.",7,"Security",0,0
+"908","ExpressJet Airlines Inc.",8,"Security",0,0
+"909","ExpressJet Airlines Inc.",9,"Security",0,0
+"910","ExpressJet Airlines Inc.",10,"Security",0,0
+"911","ExpressJet Airlines Inc.",11,"Security",0,0
+"912","ExpressJet Airlines Inc.",12,"Security",0,0
+"913","Frontier Airlines Inc.",1,"Security",0,0
+"914","Frontier Airlines Inc.",2,"Security",0,0
+"915","Frontier Airlines Inc.",3,"Security",0,0
+"916","Frontier Airlines Inc.",4,"Security",0,0
+"917","Frontier Airlines Inc.",5,"Security",0,0
+"918","Frontier Airlines Inc.",6,"Security",0,0
+"919","Frontier Airlines Inc.",7,"Security",0,0
+"920","Frontier Airlines Inc.",8,"Security",0,0
+"921","Frontier Airlines Inc.",9,"Security",0,0
+"922","Frontier Airlines Inc.",10,"Security",0,0
+"923","Frontier Airlines Inc.",11,"Security",0,0
+"924","Frontier Airlines Inc.",12,"Security",0,0
+"925","Hawaiian Airlines Inc.",1,"Security",2.22,0.000353559483994267
+"926","Hawaiian Airlines Inc.",2,"Security",1.45,0.000247820885318749
+"927","Hawaiian Airlines Inc.",3,"Security",6.87,0.00108103855232101
+"928","Hawaiian Airlines Inc.",4,"Security",2.78,0.000445584228241705
+"929","Hawaiian Airlines Inc.",5,"Security",0,0
+"930","Hawaiian Airlines Inc.",6,"Security",1.59,0.000236220472440945
+"931","Hawaiian Airlines Inc.",7,"Security",0.43,6.12361150669325e-05
+"932","Hawaiian Airlines Inc.",8,"Security",1,0.000141864094197759
+"933","Hawaiian Airlines Inc.",9,"Security",6.78,0.0010974425380382
+"934","Hawaiian Airlines Inc.",10,"Security",1.54,0.000247111681643132
+"935","Hawaiian Airlines Inc.",11,"Security",0.59,9.71353309186697e-05
+"936","Hawaiian Airlines Inc.",12,"Security",3.5,0.000551441625965023
+"937","JetBlue Airways",1,"Security",29.49,0.00128117125727691
+"938","JetBlue Airways",2,"Security",22.19,0.00101901175606172
+"939","JetBlue Airways",3,"Security",27.16,0.00113997901364113
+"940","JetBlue Airways",4,"Security",12.58,0.000542545391814379
+"941","JetBlue Airways",5,"Security",14.06,0.00058003300330033
+"942","JetBlue Airways",6,"Security",22.75,0.000954078423149507
+"943","JetBlue Airways",7,"Security",30.23,0.0012127412043166
+"944","JetBlue Airways",8,"Security",21.54,0.000871077321255257
+"945","JetBlue Airways",9,"Security",14.84,0.000662618324700839
+"946","JetBlue Airways",10,"Security",18.93,0.000814929613844763
+"947","JetBlue Airways",11,"Security",10.82,0.000470967180290763
+"948","JetBlue Airways",12,"Security",31.05,0.00127630713581059
+"949","SkyWest Airlines Inc.",1,"Security",15.05,0.000316050316050316
+"950","SkyWest Airlines Inc.",2,"Security",11.19,0.000245308663626798
+"951","SkyWest Airlines Inc.",3,"Security",17.26,0.000331559636552241
+"952","SkyWest Airlines Inc.",4,"Security",7.43,0.000148253087774607
+"953","SkyWest Airlines Inc.",5,"Security",11.13,0.00021715802001834
+"954","SkyWest Airlines Inc.",6,"Security",9.94,0.000188079470198675
+"955","SkyWest Airlines Inc.",7,"Security",19.54,0.000355505421730587
+"956","SkyWest Airlines Inc.",8,"Security",13.88,0.000254436134330547
+"957","SkyWest Airlines Inc.",9,"Security",4,8.16726559947729e-05
+"958","SkyWest Airlines Inc.",10,"Security",8.84,0.000173282367931001
+"959","SkyWest Airlines Inc.",11,"Security",8.56,0.000181026096519054
+"960","SkyWest Airlines Inc.",12,"Security",12.89,0.000259732409123882
+"961","Southwest Airlines Co.",1,"Security",38.42,0.00036887685542562
+"962","Southwest Airlines Co.",2,"Security",19.15,0.000196965800977115
+"963","Southwest Airlines Co.",3,"Security",41.66,0.000371954322652072
+"964","Southwest Airlines Co.",4,"Security",50.2,0.00046543971072273
+"965","Southwest Airlines Co.",5,"Security",54.17,0.000493140459002066
+"966","Southwest Airlines Co.",6,"Security",63.26,0.000563382790374579
+"967","Southwest Airlines Co.",7,"Security",40.13,0.000348326505103812
+"968","Southwest Airlines Co.",8,"Security",42.6,0.000384563303994584
+"969","Southwest Airlines Co.",9,"Security",14.99,0.000144019676604249
+"970","Southwest Airlines Co.",10,"Security",11.75,0.000108516965588578
+"971","Southwest Airlines Co.",11,"Security",48.3,0.000451722718940556
+"972","Southwest Airlines Co.",12,"Security",38.29,0.00034555890475245
+"973","Spirit Air Lines",1,"Security",17.21,0.00155788901964334
+"974","Spirit Air Lines",2,"Security",7.55,0.000729186787714893
+"975","Spirit Air Lines",3,"Security",1.85,0.000164502934376667
+"976","Spirit Air Lines",4,"Security",12.69,0.00112490027479833
+"977","Spirit Air Lines",5,"Security",15.39,0.00128335557038025
+"978","Spirit Air Lines",6,"Security",13.37,0.00115208961654459
+"979","Spirit Air Lines",7,"Security",2.04,0.000170070862859525
+"980","Spirit Air Lines",8,"Security",9.01,0.00075133422281521
+"981","Spirit Air Lines",9,"Security",0.31,2.78001972917227e-05
+"982","Spirit Air Lines",10,"Security",5.49,0.000477266799965226
+"983","Spirit Air Lines",11,"Security",3.27,0.000281726544326699
+"984","Spirit Air Lines",12,"Security",6.85,0.000551263479800418
+"985","United Air Lines Inc.",1,"Security",2.05,5.15580594049445e-05
+"986","United Air Lines Inc.",2,"Security",0,0
+"987","United Air Lines Inc.",3,"Security",1.45,3.27683615819209e-05
+"988","United Air Lines Inc.",4,"Security",0,0
+"989","United Air Lines Inc.",5,"Security",0,0
+"990","United Air Lines Inc.",6,"Security",0,0
+"991","United Air Lines Inc.",7,"Security",0,0
+"992","United Air Lines Inc.",8,"Security",9.66,0.000194139635837453
+"993","United Air Lines Inc.",9,"Security",0,0
+"994","United Air Lines Inc.",10,"Security",1,2.00196192268423e-05
+"995","United Air Lines Inc.",11,"Security",0,0
+"996","United Air Lines Inc.",12,"Security",6.8,0.000148737915044403
+"997","Virgin America",1,"Security",4.11,0.000763372956909361
+"998","Virgin America",2,"Security",5.55,0.00112325440194293
+"999","Virgin America",3,"Security",3.91,0.000693877551020408
+"1000","Virgin America",4,"Security",9.26,0.00164068036853296
+"1001","Virgin America",5,"Security",5.71,0.000976569180776467
+"1002","Virgin America",6,"Security",11.86,0.0020037168440615
+"1003","Virgin America",7,"Security",2.67,0.000437704918032787
+"1004","Virgin America",8,"Security",6.98,0.00114972821610937
+"1005","Virgin America",9,"Security",13.69,0.00239084876004191
+"1006","Virgin America",10,"Security",4.08,0.000696959344038264
+"1007","Virgin America",11,"Security",1.17,0.000197735338854149
+"1008","Virgin America",12,"Security",8.25,0.00135623869801085
+"1009","Alaska Airlines Inc.",1,"Late Aircraft",442.5,0.0311510031678986
+"1010","Alaska Airlines Inc.",2,"Late Aircraft",324.68,0.0242316590790357
+"1011","Alaska Airlines Inc.",3,"Late Aircraft",501.16,0.0339056897368243
+"1012","Alaska Airlines Inc.",4,"Late Aircraft",366.39,0.0249890874369117
+"1013","Alaska Airlines Inc.",5,"Late Aircraft",324.54,0.0210945726356841
+"1014","Alaska Airlines Inc.",6,"Late Aircraft",586.45,0.0372822631913541
+"1015","Alaska Airlines Inc.",7,"Late Aircraft",393.46,0.0242039862204724
+"1016","Alaska Airlines Inc.",8,"Late Aircraft",523.47,0.0318122151321787
+"1017","Alaska Airlines Inc.",9,"Late Aircraft",286.9,0.0207028431231058
+"1018","Alaska Airlines Inc.",10,"Late Aircraft",422.13,0.0299637989778535
+"1019","Alaska Airlines Inc.",11,"Late Aircraft",382.68,0.0274401262010612
+"1020","Alaska Airlines Inc.",12,"Late Aircraft",947.05,0.065246296934206
+"1021","American Airlines Inc.",1,"Late Aircraft",3401.12,0.0450002646202699
+"1022","American Airlines Inc.",2,"Late Aircraft",2983.9,0.0417679171332587
+"1023","American Airlines Inc.",3,"Late Aircraft",4620.24,0.058396086907064
+"1024","American Airlines Inc.",4,"Late Aircraft",3189,0.0426000881657516
+"1025","American Airlines Inc.",5,"Late Aircraft",4169.43,0.0529935941432167
+"1026","American Airlines Inc.",6,"Late Aircraft",7267.43,0.0912443501406187
+"1027","American Airlines Inc.",7,"Late Aircraft",7741.95,0.0947862337471534
+"1028","American Airlines Inc.",8,"Late Aircraft",6967.15,0.0868278062337209
+"1029","American Airlines Inc.",9,"Late Aircraft",3228.05,0.0445494065691416
+"1030","American Airlines Inc.",10,"Late Aircraft",2887.8,0.0384164105838688
+"1031","American Airlines Inc.",11,"Late Aircraft",2742.88,0.0381915649062226
+"1032","American Airlines Inc.",12,"Late Aircraft",4563.66,0.0618365355952413
+"1033","Delta Air Lines Inc.",1,"Late Aircraft",2531.55,0.0363149287773809
+"1034","Delta Air Lines Inc.",2,"Late Aircraft",2548.1,0.0375986779005769
+"1035","Delta Air Lines Inc.",3,"Late Aircraft",2679.22,0.0342567446618079
+"1036","Delta Air Lines Inc.",4,"Late Aircraft",2004.91,0.0261713681517355
+"1037","Delta Air Lines Inc.",5,"Late Aircraft",2521.89,0.0313060479666319
+"1038","Delta Air Lines Inc.",6,"Late Aircraft",4270.11,0.0523830612019579
+"1039","Delta Air Lines Inc.",7,"Late Aircraft",4425.22,0.0528845441399668
+"1040","Delta Air Lines Inc.",8,"Late Aircraft",4694.75,0.0555328838419683
+"1041","Delta Air Lines Inc.",9,"Late Aircraft",1842.71,0.0244148393507784
+"1042","Delta Air Lines Inc.",10,"Late Aircraft",1293.86,0.0163848189750149
+"1043","Delta Air Lines Inc.",11,"Late Aircraft",1570.54,0.0211940137376355
+"1044","Delta Air Lines Inc.",12,"Late Aircraft",3559.32,0.049702843098922
+"1045","ExpressJet Airlines Inc.",1,"Late Aircraft",2190.43,0.0521903740767215
+"1046","ExpressJet Airlines Inc.",2,"Late Aircraft",2597.92,0.0650683764965186
+"1047","ExpressJet Airlines Inc.",3,"Late Aircraft",2451.05,0.0549760003588731
+"1048","ExpressJet Airlines Inc.",4,"Late Aircraft",1673.73,0.0410499595320433
+"1049","ExpressJet Airlines Inc.",5,"Late Aircraft",2108.23,0.0510541483024168
+"1050","ExpressJet Airlines Inc.",6,"Late Aircraft",3013.23,0.0701158813263525
+"1051","ExpressJet Airlines Inc.",7,"Late Aircraft",4105.55,0.0942461319498646
+"1052","ExpressJet Airlines Inc.",8,"Late Aircraft",3850.51,0.0890188417523986
+"1053","ExpressJet Airlines Inc.",9,"Late Aircraft",2228.45,0.0571485356721547
+"1054","ExpressJet Airlines Inc.",10,"Late Aircraft",2127.22,0.0536567032412662
+"1055","ExpressJet Airlines Inc.",11,"Late Aircraft",2337.76,0.0640499739718896
+"1056","ExpressJet Airlines Inc.",12,"Late Aircraft",3410.74,0.0909215471969717
+"1057","Frontier Airlines Inc.",1,"Late Aircraft",311.63,0.0438977320749401
+"1058","Frontier Airlines Inc.",2,"Late Aircraft",270.87,0.0407568462232922
+"1059","Frontier Airlines Inc.",3,"Late Aircraft",599.34,0.0849284398469605
+"1060","Frontier Airlines Inc.",4,"Late Aircraft",315.14,0.0442301754385965
+"1061","Frontier Airlines Inc.",5,"Late Aircraft",544.92,0.0688030303030303
+"1062","Frontier Airlines Inc.",6,"Late Aircraft",564.93,0.0696842235105464
+"1063","Frontier Airlines Inc.",7,"Late Aircraft",1030.21,0.114226632664375
+"1064","Frontier Airlines Inc.",8,"Late Aircraft",973.81,0.109037061919158
+"1065","Frontier Airlines Inc.",9,"Late Aircraft",893.03,0.103288225769142
+"1066","Frontier Airlines Inc.",10,"Late Aircraft",634.62,0.0730035660876567
+"1067","Frontier Airlines Inc.",11,"Late Aircraft",258.66,0.0335616971584274
+"1068","Frontier Airlines Inc.",12,"Late Aircraft",912.46,0.111670542161302
+"1069","Hawaiian Airlines Inc.",1,"Late Aircraft",126.3,0.0201146679407549
+"1070","Hawaiian Airlines Inc.",2,"Late Aircraft",164,0.0280293966843275
+"1071","Hawaiian Airlines Inc.",3,"Late Aircraft",273.58,0.0430495672698662
+"1072","Hawaiian Airlines Inc.",4,"Late Aircraft",135.57,0.0217294438211252
+"1073","Hawaiian Airlines Inc.",5,"Late Aircraft",203.42,0.0316262437810945
+"1074","Hawaiian Airlines Inc.",6,"Late Aircraft",208.38,0.0309582528599019
+"1075","Hawaiian Airlines Inc.",7,"Late Aircraft",338.28,0.0481743093135859
+"1076","Hawaiian Airlines Inc.",8,"Late Aircraft",202.81,0.0287714569442474
+"1077","Hawaiian Airlines Inc.",9,"Late Aircraft",190.78,0.0308805438653286
+"1078","Hawaiian Airlines Inc.",10,"Late Aircraft",140.88,0.0226059050064185
+"1079","Hawaiian Airlines Inc.",11,"Late Aircraft",162.55,0.026761606848864
+"1080","Hawaiian Airlines Inc.",12,"Late Aircraft",327.57,0.0516102095478179
+"1081","JetBlue Airways",1,"Late Aircraft",2161.6,0.0939091146059605
+"1082","JetBlue Airways",2,"Late Aircraft",2175.79,0.0999168809698751
+"1083","JetBlue Airways",3,"Late Aircraft",1948.15,0.0817691500524659
+"1084","JetBlue Airways",4,"Late Aircraft",1636.2,0.0705654030275586
+"1085","JetBlue Airways",5,"Late Aircraft",1418.63,0.0585243399339934
+"1086","JetBlue Airways",6,"Late Aircraft",2049.62,0.0859559656112392
+"1087","JetBlue Airways",7,"Late Aircraft",2718.45,0.109056444818871
+"1088","JetBlue Airways",8,"Late Aircraft",2414.62,0.0976472015528955
+"1089","JetBlue Airways",9,"Late Aircraft",1594.2,0.0711823539917843
+"1090","JetBlue Airways",10,"Late Aircraft",1634.47,0.0703633389297861
+"1091","JetBlue Airways",11,"Late Aircraft",1048.28,0.0456289718812571
+"1092","JetBlue Airways",12,"Late Aircraft",2418.11,0.0993961690233476
+"1093","SkyWest Airlines Inc.",1,"Late Aircraft",3792.55,0.0796436296436296
+"1094","SkyWest Airlines Inc.",2,"Late Aircraft",2862.84,0.0627595580498071
+"1095","SkyWest Airlines Inc.",3,"Late Aircraft",4080.21,0.0783796607564785
+"1096","SkyWest Airlines Inc.",4,"Late Aircraft",2522.96,0.050341401121376
+"1097","SkyWest Airlines Inc.",5,"Late Aircraft",2937.34,0.0573105964528906
+"1098","SkyWest Airlines Inc.",6,"Late Aircraft",3005.27,0.0568641438032167
+"1099","SkyWest Airlines Inc.",7,"Late Aircraft",3621.01,0.065879666690925
+"1100","SkyWest Airlines Inc.",8,"Late Aircraft",4205.58,0.0770930488341399
+"1101","SkyWest Airlines Inc.",9,"Late Aircraft",2014.85,0.0411395377327671
+"1102","SkyWest Airlines Inc.",10,"Late Aircraft",2613.67,0.0512333627364501
+"1103","SkyWest Airlines Inc.",11,"Late Aircraft",2617.43,0.0553531700714799
+"1104","SkyWest Airlines Inc.",12,"Late Aircraft",5424.21,0.109297372451036
+"1105","Southwest Airlines Co.",1,"Late Aircraft",6336.38,0.0608366457361215
+"1106","Southwest Airlines Co.",2,"Late Aircraft",4470.88,0.0459848804319877
+"1107","Southwest Airlines Co.",3,"Late Aircraft",9455.08,0.0844180959438586
+"1108","Southwest Airlines Co.",4,"Late Aircraft",9191.21,0.085218209633304
+"1109","Southwest Airlines Co.",5,"Late Aircraft",9509.67,0.0865719591795862
+"1110","Southwest Airlines Co.",6,"Late Aircraft",13304.98,0.118491886789092
+"1111","Southwest Airlines Co.",7,"Late Aircraft",14613.81,0.126847180751337
+"1112","Southwest Airlines Co.",8,"Late Aircraft",9731.02,0.0878449108553374
+"1113","Southwest Airlines Co.",9,"Late Aircraft",6618.81,0.0635916528155415
+"1114","Southwest Airlines Co.",10,"Late Aircraft",7028.96,0.0649158647185947
+"1115","Southwest Airlines Co.",11,"Late Aircraft",6590.6,0.0616381729078598
+"1116","Southwest Airlines Co.",12,"Late Aircraft",12736.53,0.114944407342563
+"1117","Spirit Air Lines",1,"Late Aircraft",992.02,0.0897999456866117
+"1118","Spirit Air Lines",2,"Late Aircraft",676.36,0.0653235464554761
+"1119","Spirit Air Lines",3,"Late Aircraft",63.12,0.00561266227992175
+"1120","Spirit Air Lines",4,"Late Aircraft",753.38,0.0667830866057974
+"1121","Spirit Air Lines",5,"Late Aircraft",715.63,0.059675617078052
+"1122","Spirit Air Lines",6,"Late Aircraft",784.2,0.067574321413184
+"1123","Spirit Air Lines",7,"Late Aircraft",319.48,0.0266344310129221
+"1124","Spirit Air Lines",8,"Late Aircraft",473.5,0.0394846564376251
+"1125","Spirit Air Lines",9,"Late Aircraft",41.54,0.00372522643709084
+"1126","Spirit Air Lines",10,"Late Aircraft",222.2,0.0193166999913066
+"1127","Spirit Air Lines",11,"Late Aircraft",350.13,0.0301654174205221
+"1128","Spirit Air Lines",12,"Late Aircraft",868.59,0.0699010140028972
+"1129","United Air Lines Inc.",1,"Late Aircraft",1493.88,0.0375714896506627
+"1130","United Air Lines Inc.",2,"Late Aircraft",1469.02,0.0377213434675431
+"1131","United Air Lines Inc.",3,"Late Aircraft",2657.61,0.0600589830508475
+"1132","United Air Lines Inc.",4,"Late Aircraft",1966.94,0.0454458076292137
+"1133","United Air Lines Inc.",5,"Late Aircraft",2310.79,0.0503286579256872
+"1134","United Air Lines Inc.",6,"Late Aircraft",2951.59,0.0635789677752887
+"1135","United Air Lines Inc.",7,"Late Aircraft",3574.31,0.074388853045849
+"1136","United Air Lines Inc.",8,"Late Aircraft",3555.18,0.07144941516942
+"1137","United Air Lines Inc.",9,"Late Aircraft",2072.75,0.0441621391285821
+"1138","United Air Lines Inc.",10,"Late Aircraft",2494.68,0.049942543692819
+"1139","United Air Lines Inc.",11,"Late Aircraft",1931.78,0.041920489562085
+"1140","United Air Lines Inc.",12,"Late Aircraft",3122.29,0.0682945448182335
+"1141","Virgin America",1,"Late Aircraft",440.8,0.0818722139673106
+"1142","Virgin America",2,"Late Aircraft",230.59,0.046668690548472
+"1143","Virgin America",3,"Late Aircraft",552.76,0.0980940550133097
+"1144","Virgin America",4,"Late Aircraft",493.98,0.0875230333097094
+"1145","Virgin America",5,"Late Aircraft",498.99,0.0853412006157004
+"1146","Virgin America",6,"Late Aircraft",587.33,0.0992279101199527
+"1147","Virgin America",7,"Late Aircraft",527.55,0.086483606557377
+"1148","Virgin America",8,"Late Aircraft",550.36,0.0906539285126009
+"1149","Virgin America",9,"Late Aircraft",329.2,0.057492141110723
+"1150","Virgin America",10,"Late Aircraft",425.72,0.0727229244960711
+"1151","Virgin America",11,"Late Aircraft",360.04,0.0608484029068785
+"1152","Virgin America",12,"Late Aircraft",693.34,0.113979944106526

@@ -1,0 +1,124 @@
+---
+title: "Airline Delay Causes"
+output: html_notebook
+---
+
+# Airline Delay Causes - 2016
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+```
+
+```{r, packages}
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+```
+
+```{r, setwd}
+# setwd(dir = "../DataScience/udacity-nanodegree-data-analyst/P6 - Make Effective Data Visualization/final-project/data/")
+# setwd(dir = "../../OneDrive/DataScience/udacity-nanodegree-data-analyst/P6 - Make Effective Data Visualization/final-project/data/")
+```
+
+```{r, read_csv}
+# delays <- read.csv(file = "2003_06_2017_01_airline_delay_causes.csv")
+delays <- read.csv(file = "2016_airline_delay_causes.csv")
+
+colnames(delays)[c(2, 10, 16, 17)] <- 
+  c("month", "weather_ct", "arr_delay", "carrier_delay")
+delays$X <- NULL
+delays[is.na(delays)] <- 0
+
+delays$date <- with(delays, 
+                    as.Date(paste(year, month, '01'), format = "%Y %m %d"))
+delays$arr_on_time <- with(delays, 
+                           arr_flights - arr_del15 - arr_cancelled - 
+                             arr_diverted)
+```
+
+```{r}
+gathered_delay_sums <- delays %>% 
+  group_by(carrier_name, month) %>% 
+  summarise(on_time = sum(arr_on_time),
+            cancelled = sum(arr_cancelled),
+            diverted = sum(arr_diverted),
+            carrier = sum(carrier_ct),
+            weather = sum(weather_ct),
+            nas = sum(nas_ct),
+            security = sum(security_ct),
+            late_aircraft = sum(late_aircraft_ct)) %>% 
+  ungroup() %>% 
+  gather(key = status, value = sum, 3:10)
+```
+
+```{r}
+gathered_delay_ratios <- delays %>%
+  group_by(carrier_name, month) %>% 
+  summarise(on_time = sum(arr_on_time) / sum(arr_flights),
+            cancelled = sum(arr_cancelled / sum(arr_flights)),
+            diverted = sum(arr_diverted / sum(arr_flights)),
+            carrier = sum(carrier_ct / sum(arr_flights)),
+            weather = sum(weather_ct / sum(arr_flights)),
+            nas = sum(nas_ct / sum(arr_flights)),
+            security = sum(security_ct / sum(arr_flights)),
+            late_aircraft = sum(late_aircraft_ct) / sum(arr_flights)) %>% 
+  ungroup() %>% 
+  gather(key = status, value = ratio, 3:10)
+```
+
+```{r}
+gathered_delay_stats <- left_join(gathered_delay_sums, gathered_delay_ratios, 
+                                  by = c("carrier_name", "month", "status"))
+
+gathered_delay_stats$status[gathered_delay_stats$status == "on_time"] <- "On Time"
+gathered_delay_stats$status[gathered_delay_stats$status == "cancelled"] <- "Cancelled"
+gathered_delay_stats$status[gathered_delay_stats$status == "diverted"] <- "Diverted"
+gathered_delay_stats$status[gathered_delay_stats$status == "carrier"] <- "Carrier"
+gathered_delay_stats$status[gathered_delay_stats$status == "weather"] <- "Weather"
+gathered_delay_stats$status[gathered_delay_stats$status == "nas"] <- "NAS"
+gathered_delay_stats$status[gathered_delay_stats$status == "security"] <- "Security"
+gathered_delay_stats$status[gathered_delay_stats$status == "late_aircraft"] <- "Late Aircraft"
+
+colnames(gathered_delay_stats) <- c("Carrier Name", "Month", "Status", "Flights", "Ratio")
+```
+
+```{r}
+# gathered_delay_ratios$date <- with(gathered_delay_ratios,
+#                                    as.Date(paste('2016', month, '01'),
+#                                            format = "%Y %m %d"))
+# 
+# gathered_delay_ratios$status <- as.factor(gathered_delay_ratios$status)
+# 
+# gathered_delay_ratios$status <- with(gathered_delay_ratios, 
+#                                      reorder(status, ratio))
+```
+
+```{r}
+# for(carrier in levels(gathered_delay_ratios$carrier_name)) {
+#   print(ggplot(subset(gathered_delay_ratios, carrier_name == carrier),
+#                aes(x = date, y = ratio, fill = status)) +
+#           geom_col())
+# }
+```
+
+```{r}
+# ggplot(subset(gathered_delay_ratios, carrier_name == "Alaska Airlines Inc."),
+#        aes(x = date, y = ratio, fill = status)) +
+#   geom_area()
+```
+
+```{r}
+delay_totals <- delays %>% 
+  group_by(carrier_name) %>% 
+  summarise(arr_flights = sum(arr_flights),
+            on_time_ratio = sum(arr_on_time) / sum(arr_flights))
+```
+
+```{r}
+write.csv(x = gathered_delay_stats, file = "2016_delays.csv")
+
+write.csv(x = delay_totals, file = "2016_delay_totals.csv")
+```
+
+
+
