@@ -1,4 +1,4 @@
-"","Carrier Name","Month","Status","Flights","Ratio"
+"","Carrier Name","Month","Status","Flights","Flights Ratio"
 "1","Alaska Airlines Inc.",1,"On Time",12361,0.870186554030271
 "2","Alaska Airlines Inc.",2,"On Time",11963,0.892827822971864
 "3","Alaska Airlines Inc.",3,"On Time",12770,0.863946958933766

@@ -1,12 +1,9 @@
-# 2016 Flight Delays by Cause
+# Flight Performances for each Carrier in 2016
 
 ## Summary
 The chart shows the monthly flight delay ratios for each carrier in the year of 2016. The carriers are sorted by overall delay performance, and the total number of flights for each one is also depicted.
 
 ## Design
-
-Initial design decisions such as chart type, visual encodings, layout, legends, or hierarchy are included at the beginning of the Design section in the README.md file.
-
 I chose to draw a main stacked bar chart with the following visual encodings:
 - The ratio between delayed and total flights is represented vertically on the y axis;
 - Months are displayed horizontally on the x axis;
@@ -20,14 +17,28 @@ At first I made the stacked bars show the number of delayed flights, however, th
 I chose not to show "on time" flights on the chart, so I could zoom in the scale, allowing a better visualization of the delay causes.
 
 After collecting feedback I changed the following:
-- Item 1
-- Item 2
-- Etc
+- Assured the order of the months also on Firefox;
+- Changed the chart title from "2016 Flight Delays by Cause" to "Flight Performances for each Carrier in 2016";
+- Added a "References" section to communicate the source of the dataset;
+- Changed the y axis label from "Ratio" to "Flights Ratio", and made it show percentual values;
+- Made the x axis of the secondary bar chart visible, to make it clearer that it was also a chart;
+- Fixed the height of the stacked bar chart, so that the "Month" label would be visible.
 
 ## Feedback
-- "Hey, it looks nice :)"
-- "Yo, you suck"
-- "Well, whatever"
+### Laurent de Vito
+"Hi,
+Interestingly, in Firefox, the months are labeled 12,7,8,... whereas they are correctly labeled in Chromium, but usually, we cannot do much about it.
+I find the title a bit misleading since you report not only the flights that were delayed but also those that were canceled.
+Furthermore, could you please cite your sources ?
+Overall, nicely done!"
+
+### Morgana Secco (my wife)
+"The y axis show a ratio between what?
+You should make it clearer that the horizontal bars on the right display the total flights for each carrier.
+There is no month label on the x axis."
+
+### Feedback 3
+"Well, whatever"
 
 ## Resources
 - http://dimplejs.org/examples_viewer.html?id=bars_vertical_stacked

@@ -1,6 +1,7 @@
 "use strict"
 
 function orderRule(a, b) {
+  console.log(a);
   var aTotal = 0,
       bTotal = 0, 
       aDelay = 0, 
@@ -10,10 +11,10 @@ function orderRule(a, b) {
     bDelay += Number(b.Flights[i]);
     // This could be any status. It is just to sum the total flights.
     if (a.Status[i] == "NAS") {
-      aTotal += Number(a.Flights[i]) / Number(a.Ratio[i]);
+      aTotal += Number(a.Flights[i]) / Number(a["Flights Ratio"][i]);
     }
     if (b.Status[i] == "NAS") {
-      bTotal += Number(b.Flights[i]) / Number(b.Ratio[i]);
+      bTotal += Number(b.Flights[i]) / Number(b["Flights Ratio"][i]);
     }
   }
   return (aDelay / aTotal) >= (bDelay / bTotal) ? -1 : 1;
@@ -50,8 +51,8 @@ function draw(data) {
   indicator.setBounds(
     .75 * width,
     .1 * height, 
-    .24 * width, 
-    .86 * height);
+    .22 * width, 
+    .80 * height);
 
   var defaultColor = indicator.defaultColors[0];
   var indicatorColor = indicator.defaultColors[2];
@@ -59,7 +60,9 @@ function draw(data) {
   var y = indicator.addCategoryAxis("y", "Carrier Name");
   y.addOrderRule(orderRuleBug);
   var x = indicator.addMeasureAxis("x", "Flights");
-  x.hidden = true;
+  // x.hidden = true;
+  x.showGridlines = false;
+  x.ticks = 5;
   var s = indicator.addSeries(null, dimple.plot.bar);
   s.addEventHandler("click", onClick);
   
@@ -115,11 +118,16 @@ function draw(data) {
     .06 * width,
     .07 * height,
     .68 * width,
-    .88 * height);
+    .83 * height);
 
-  stacked.addCategoryAxis("x", "Month");
-  var stackedY = stacked.addMeasureAxis("y", "Ratio");
+  var stackedX = stacked.addCategoryAxis("x", "Month");
+  stackedX.addOrderRule("Month");
+  var stackedY = stacked.addMeasureAxis("y", "Flights Ratio");
   stackedY.overrideMax = 0.4;
+  // stackedY.tickFormat = "%";
+  // var p = Math.max(0, d3.precisionFixed(0.05) - 2),
+  // f = d3.format("." + p + "%");
+  stackedY.tickFormat = "1.0%";
   stacked.addSeries("Status", dimple.plot.bar)
   stacked.addLegend(
     .07 * width,

@@ -79,7 +79,7 @@ gathered_delay_stats$status[gathered_delay_stats$status == "nas"] <- "NAS"
 gathered_delay_stats$status[gathered_delay_stats$status == "security"] <- "Security"
 gathered_delay_stats$status[gathered_delay_stats$status == "late_aircraft"] <- "Late Aircraft"
 
-colnames(gathered_delay_stats) <- c("Carrier Name", "Month", "Status", "Flights", "Ratio")
+colnames(gathered_delay_stats) <- c("Carrier Name", "Month", "Status", "Flights", "Flights Ratio")
 ```
 
 ```{r}
