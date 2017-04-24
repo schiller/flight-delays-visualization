@@ -37,8 +37,14 @@ Overall, nicely done!"
 You should make it clearer that the horizontal bars on the right display the total flights for each carrier.
 There is no month label on the x axis."
 
-### Feedback 3
-"Well, whatever"
+### tianchuanting
+"Hi Luiz,
+
+After spending a minute or two looking at your visualisation, my impression is that it is a very well made visualization. I especially like the small details you put into it, like the tooltip and animated guideline. And here is a list of feedback for you consideration.
+
+1. I had some difficulty understanding what the vertical axis 'flight delay' ratio means. Maybe using something like % of delayed flight might be intuitive.
+2. Similarly, It took me a while to get what the 1-12 on the horizontal axis is presenting, maybe using month abbrev (Jan, Feb etc) instead will be a better idea.
+LT"
 
 ## Resources
 - http://dimplejs.org/examples_viewer.html?id=bars_vertical_stacked
