@@ -21,11 +21,10 @@ library(ggplot2)
 ```
 
 ```{r, read_csv}
-# delays <- read.csv(file = "2003_06_2017_01_airline_delay_causes.csv")
 delays <- read.csv(file = "2016_airline_delay_causes.csv")
 
-colnames(delays)[c(2, 10, 16, 17)] <- 
-  c("month", "weather_ct", "arr_delay", "carrier_delay")
+colnames(delays)[c(2, 3, 10, 16, 17)] <- 
+  c("month", "carrier_code", "weather_ct", "arr_delay", "carrier_delay")
 delays$X <- NULL
 delays[is.na(delays)] <- 0
 
@@ -38,48 +37,73 @@ delays$arr_on_time <- with(delays,
 
 ```{r}
 gathered_delay_sums <- delays %>% 
-  group_by(carrier_name, month) %>% 
+  group_by(carrier_name, carrier_code, month) %>% 
   summarise(on_time = sum(arr_on_time),
-            cancelled = sum(arr_cancelled),
-            diverted = sum(arr_diverted),
-            carrier = sum(carrier_ct),
-            weather = sum(weather_ct),
-            nas = sum(nas_ct),
-            security = sum(security_ct),
-            late_aircraft = sum(late_aircraft_ct)) %>% 
+            delayed = sum(arr_del15),
+            # carrier = sum(carrier_ct),
+            # weather = sum(weather_ct),
+            # nas = sum(nas_ct),
+            # security = sum(security_ct),
+            # late_aircraft = sum(late_aircraft_ct),
+            # cancelled = sum(arr_cancelled),
+            # diverted = sum(arr_diverted),
+            cancelled_or_diverted = sum(arr_cancelled) + sum(arr_diverted)) %>% 
   ungroup() %>% 
-  gather(key = status, value = sum, 3:10)
+  ungroup() %>% 
+  gather(key = status, value = sum, 4:6)
 ```
 
 ```{r}
 gathered_delay_ratios <- delays %>%
-  group_by(carrier_name, month) %>% 
+  group_by(carrier_name, carrier_code, month) %>% 
   summarise(on_time = sum(arr_on_time) / sum(arr_flights),
-            cancelled = sum(arr_cancelled / sum(arr_flights)),
-            diverted = sum(arr_diverted / sum(arr_flights)),
-            carrier = sum(carrier_ct / sum(arr_flights)),
-            weather = sum(weather_ct / sum(arr_flights)),
-            nas = sum(nas_ct / sum(arr_flights)),
-            security = sum(security_ct / sum(arr_flights)),
-            late_aircraft = sum(late_aircraft_ct) / sum(arr_flights)) %>% 
+            delayed = sum(arr_del15) / sum(arr_flights),
+            # carrier = sum(carrier_ct) / sum(arr_flights),
+            # weather = sum(weather_ct) / sum(arr_flights),
+            # nas = sum(nas_ct) / sum(arr_flights),
+            # security = sum(security_ct) / sum(arr_flights),
+            # late_aircraft = sum(late_aircraft_ct) / sum(arr_flights),
+            # cancelled = sum(arr_cancelled) / sum(arr_flights),
+            # diverted = sum(arr_diverted) / sum(arr_flights),
+            cancelled_or_diverted = (sum(arr_cancelled) + sum(arr_diverted)) / sum(arr_flights)) %>% 
   ungroup() %>% 
-  gather(key = status, value = ratio, 3:10)
+  ungroup() %>% 
+  gather(key = status, value = ratio, 4:6)
 ```
 
 ```{r}
-gathered_delay_stats <- left_join(gathered_delay_sums, gathered_delay_ratios, 
-                                  by = c("carrier_name", "month", "status"))
+gathered_delay_stats <- left_join(gathered_delay_sums, gathered_delay_ratios,
+                                  by = c("carrier_name", 
+                                         "carrier_code", 
+                                         "month", 
+                                         "status"))
 
 gathered_delay_stats$status[gathered_delay_stats$status == "on_time"] <- "On Time"
-gathered_delay_stats$status[gathered_delay_stats$status == "cancelled"] <- "Cancelled"
-gathered_delay_stats$status[gathered_delay_stats$status == "diverted"] <- "Diverted"
+gathered_delay_stats$status[gathered_delay_stats$status == "delayed"] <- "Delayed"
 gathered_delay_stats$status[gathered_delay_stats$status == "carrier"] <- "Carrier"
 gathered_delay_stats$status[gathered_delay_stats$status == "weather"] <- "Weather"
 gathered_delay_stats$status[gathered_delay_stats$status == "nas"] <- "NAS"
 gathered_delay_stats$status[gathered_delay_stats$status == "security"] <- "Security"
 gathered_delay_stats$status[gathered_delay_stats$status == "late_aircraft"] <- "Late Aircraft"
+gathered_delay_stats$status[gathered_delay_stats$status == "cancelled"] <- "Cancelled"
+gathered_delay_stats$status[gathered_delay_stats$status == "diverted"] <- "Diverted"
+gathered_delay_stats$status[gathered_delay_stats$status == "cancelled_or_diverted"] <- "Cancelled or Diverted"
 
-colnames(gathered_delay_stats) <- c("Carrier Name", "Month", "Status", "Flights", "Flights Ratio")
+gathered_delay_stats$date <- with(gathered_delay_stats,
+                                  as.Date(paste('2016', month, '01'), 
+                                          format = "%Y %m %d"))
+
+gathered_delay_stats$month_abbreviation <- format(gathered_delay_stats$date, "%b")
+
+gathered_delay_stats$date <- NULL
+
+colnames(gathered_delay_stats) <- c("Carrier Name", 
+                                    "Carrier Code", 
+                                    "Month Order", 
+                                    "Status", 
+                                    "Total Flights", 
+                                    "Flights Ratio",
+                                    "Month")
 ```
 
 ```{r}

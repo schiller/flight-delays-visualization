@@ -49,3 +49,4 @@ LT"
 ## Resources
 - http://dimplejs.org/examples_viewer.html?id=bars_vertical_stacked
 - http://dimplejs.org/advanced_examples_viewer.html?id=advanced_storyboard_control
+- https://codepen.io/mistkaes/pen/WvPrJL
