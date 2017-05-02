@@ -1,7 +1,7 @@
 "use strict"
 
 function draw(data) {
-  // carriers sorted by overall 'on time' rate
+  // carriers and carrier codes sorted by overall 'on time' rate
   var carriers = [
     "Spirit Air Lines",
     "JetBlue Airways",
@@ -41,54 +41,36 @@ function draw(data) {
 
   var svg = dimple.newSvg("#chartContainer", width, height);
 
+  // create secondary horizontal bar chart
   var indicator = new dimple.chart(svg, data);
   indicator.setBounds(
-    // .795 * width,
     .775 * width,
     .1 * height, 
     .17 * width, 
     .8 * height);
 
+  // set chart colors
   indicator.defaultColors = [
-    new dimple.color("#bdbdbd", "#555"),
-    new dimple.color("#636363", "#555")
+    new dimple.color("#bdbdbd", "#555")
   ];
-
   var defaultColor = indicator.defaultColors[0];
-  var indicatorColor = indicator.defaultColors[1];
+  var indicatorColor = new dimple.color("#636363", "#555");
 
-  var y = indicator.addCategoryAxis("y", "Carrier Code");
-  y.addOrderRule(carrierCodes);
+  // add and customize axes
   var x = indicator.addMeasureAxis("x", "Total Flights");
+  var y = indicator.addCategoryAxis("y", "Carrier Code");
+  var s = indicator.addSeries("Carrier Name", dimple.plot.bar);
   x.showGridlines = false;
   x.ticks = 5;
-  var s = indicator.addSeries("Carrier Name", dimple.plot.bar);
+  y.addOrderRule(carrierCodes);
   s.addEventHandler("click", onClick);
   
   indicator.draw();
 
   y.titleShape.remove();
   y.shapes.selectAll("line,path").remove();
-  // y.shapes.selectAll("text")
-  //         .style("text-anchor", "start")
-  //         .style("font-size", "11px")
-  //         .attr("transform", "translate(18, 0.5)");
 
-  // var ranking = [];
-  // for (var i = 12; i >= 1; i--) {
-  //   ranking.push(i);
-  // }
-  // svg.selectAll("title_text")
-  //         .data(ranking)
-  //         .enter()
-  //         .append("text")
-  //         .attr("x", .748 * width)
-  //         .attr("y", function (d, i) { return height * (.1425 + i * .0666); })
-  //         .style("font-family", "sans-serif")
-  //         .style("font-size", "11px")
-  //         .style("color", "Black")
-  //         .text(function (d) { return "#" + ("0" + d).slice(-2); });
-
+  // add pause and play buttons
   var pause = svg.append("g")
     .attr("class", "pause");
   pause.append("path")
@@ -119,27 +101,26 @@ function draw(data) {
     pause.style("visibility", "visible");
   }
 
+  // set initial selected carrier
   var selected = carrierCodes[carrierCodes.length - 1];
 
-  // Manually set the bar colors
+  // manually set the bar colors
   s.shapes
     .attr("rx", 10)
     .attr("ry", 10)
     .style("fill", function (d) {
-      return (d.y === selected ? 
-        indicatorColor.fill : 
-        defaultColor.fill) })
+      return (d.y == selected ? indicatorColor.fill : defaultColor.fill) })
     .style("stroke", function (d) { 
-      return (d.y === selected ? 
-        indicatorColor.stroke : 
-        defaultColor.stroke) })
+      return (d.y == selected ? indicatorColor.stroke : defaultColor.stroke) })
     .style("opacity", 0.4);
 
+  // excludes 'on time' data from main chart
   var stacked_data = dimple.filterData(data, "Status", [
     "Delayed",
     "Cancelled or Diverted"
   ]);
 
+  // create main chart
   var stacked = new dimple.chart(svg, stacked_data);
   stacked.setBounds(
     .06 * width,
@@ -147,22 +128,27 @@ function draw(data) {
     .68 * width,
     .8 * height);
 
+  // change delayed color from blue to orange
+  stacked.defaultColors[0] = stacked.defaultColors[2];
+
+  // add and customize axes
   var stackedX = stacked.addCategoryAxis("x", "Month");
-  stackedX.addOrderRule("Month Order");
-
   var stackedY = stacked.addMeasureAxis("y", "Flights Ratio");
-  stackedY.overrideMax = 0.4;
-  stackedY.tickFormat = "1.0%";
-
   stacked.addSeries("Status", dimple.plot.bar)
+  stackedX.addOrderRule("Month Order");  
+  stackedY.overrideMax = 0.4;
+  stackedY.tickFormat = "1.0%";  
+
   stacked.addLegend(
     .48 * width,
     .03 * height,
     .3 * width,
     .1 * height);
 
+  // state var to check it is the first tick
   var firstTick = true;
 
+  // create storyboard
   var story = stacked.setStoryboard("Carrier Name", onTick);
   story.frameDuration = frameDuration;
   story.addOrderRule(carriers, true);
@@ -190,9 +176,10 @@ function draw(data) {
     return "#" + ("0" + index).slice(-2)+ " - " + carrier;
   }
 
+  // on click on the horizontal bar chart, play or go to animation frame
   function onClick(e) {
     onPause();
-    if (getCarrier(e.yValue) === story.getFrameValue()) {
+    if (getCarrier(e.yValue) == story.getFrameValue()) {
       onPlay();
     } else {
       story.goToFrame(getCarrier(e.yValue));
@@ -203,19 +190,20 @@ function draw(data) {
   // keep state to check if title transition is needed
   var currentFrameValue = carriers[carriers.length - 1];
 
+  // on time tick update chart
   function onTick(e) {
     if (!firstTick) {
       s.shapes
         .transition()
         .duration(frameDuration / 2)
         .style("fill", function (d) {
-          return (getCarrier(d.y) === e ?
-            indicatorColor.fill : 
-            defaultColor.fill) })
+          return (
+            getCarrier(d.y) == e ? indicatorColor.fill : defaultColor.fill
+          )})
         .style("stroke", function (d) { 
-          return (getCarrier(d.y) === e ? 
-            indicatorColor.stroke : 
-            defaultColor.stroke) });
+          return (
+            getCarrier(d.y) == e ? indicatorColor.stroke : defaultColor.stroke
+          )});
     }
     firstTick = false;
 
@@ -236,6 +224,7 @@ function draw(data) {
       onPause();
     }
 
+    // update title state
     currentFrameValue = e;
   }
 }
